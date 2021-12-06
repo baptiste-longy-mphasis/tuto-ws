@@ -15,7 +15,8 @@
     "install:bundle:ewamex": "node ./scripts/setupBundle.js --name wxwamadvancedcomponents",
     "test": "npm-run-all test:*",
     "devenv": "node ./scripts/launch_devenv.js",
-    "test:js": "node test.js"
+    "test:js": "node test.js",
+    "postinstall": "node postInstall.js"
   },
   "repository": {
     "type": "git",
