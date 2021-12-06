@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<testsuites><testsuite name="aTest_aInsuranceWebService" tests="1" disabled="0" errors="0" failures="0"><testcase name="Testing_aInsuranceWebService_Version" assertions="1" classname="aTest_aInsuranceWebService" status="passed" time="0"><system-out><![CDATA[
+#Properties
+#Assertions
+Testing if the version is correct : passed, success
+]]></system-out></testcase></testsuite></testsuites>

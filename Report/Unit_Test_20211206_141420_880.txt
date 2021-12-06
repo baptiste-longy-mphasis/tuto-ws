@@ -1,0 +1,26 @@
+Start at: 14:14:20
+===========================================
+Starting Test for aTest_aInsuranceWebService
+14:14:20
+===========================================
+*********************************************
+Starting Test for aTest_aInsuranceWebService::Testing_aInsuranceWebService_Version
+14:14:20
+*********************************************
+End Test for aTest_aInsuranceWebService::Testing_aInsuranceWebService_Version
+1 Error(s) detected
+14:14:20
+*********************************************
+
+===========================================
+End Test for aTest_aInsuranceWebService
+Nb Tests: 1
+Nb Errors: 1
+14:14:20
+===========================================
+ 
+Total No of Test Classes: 1
+Total No of Tests: 1
+Total No of Errors: 1
+End at: 14:14:20
+Elapsed time: 0 s

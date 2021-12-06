@@ -1,0 +1,26 @@
+; aTest_aInsuranceWebService (aUTF_ValidationSuites) (Def Version:3) (Implem Version:3)
+
+class aTest_aInsuranceWebService (aUTF_ValidationSuites)
+
+
+;[TestSpec]
+;
+procedure Testing_aInsuranceWebService_Version
+   uses aInsuranceWebService
+   
+   var TestName : CString
+   var result : Boolean
+   var testResult : Boolean
+   var service : aInsuranceWebService
+   
+   TestName = 'Testing if the version is correct'
+   ;
+   result = True
+   ;
+   new(service)
+   testResult = service.Version = '1.0.0'
+   service.CancelObject(service)
+   ;
+   self.Assert(TestName, testResult)
+   
+endProc

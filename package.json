@@ -16,7 +16,8 @@
     "test": "npm-run-all test:*",
     "devenv": "node ./scripts/launch_devenv.js",
     "test:js": "node test.js",
-    "postinstall": "node postInstall.js"
+    "postinstall": "node postInstall.js",
+    "test:utf": "node ./scripts/call.js ewamconsole.exe /RUN:aUTF_Runner.ConsoleStart /RUNCONTEXTNAME:DefaultRunningContext"
   },
   "repository": {
     "type": "git",
