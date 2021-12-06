@@ -32,5 +32,5 @@ jobs:
     - run: npm set "//pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/:_password=%AZ_PAT%"
       env:
         AZ_PAT: ${{ secrets.AZ_PAT }}
-    - run: npm i
+    - run: npm ci
     - run: npm test
