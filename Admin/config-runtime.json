@@ -29,6 +29,9 @@
       "services": [
         {
           "className": "aDocumentationService"
+        },
+        {
+          "className": "aInsuranceWebService"
         }
       ]
     },
