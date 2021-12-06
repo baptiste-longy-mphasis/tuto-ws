@@ -1,0 +1,36 @@
+module WS_Delegates
+
+uses aWS_DataDefinitionFactory, aFullObject, aDataDocument, aClassDef, aDataValue, 
+   aDataAdapterContext, aType, aWS_DataAdapterContext, aLightObject
+
+
+function GetNameForNamedObject(context : aDataAdapterContext, value : aDataValue) return CString
+   uses aNamedObject
+   
+   var instance : aLightObject
+   
+   instance = context.CurrentObject
+   if member(instance, aNamedObject)
+      return 'Custom Name Getter: ' + aNamedObject(instance).Name
+   endIf
+endFunc 
+
+procedure SetNameForNamedObject(context : aDataAdapterContext, value : aDataValue)
+   uses aNamedObject
+   
+   var instance : aLightObject
+   
+   instance = context.CurrentObject
+   if member(instance, aNamedObject)
+      aNamedObject(instance).Name = 'dd'
+   endIf
+endProc 
+
+ function GetRefForObject(context : aDataAdapterContext, value : aDataValue) return CString
+    var instance : aLightObject
+    
+    instance = context.CurrentObject
+    if member(instance, aFullObject)
+       return IaS(aFullObject(instance).NSId) + '_' + IaS(aFullObject(instance).Id)
+    endIf
+ endFunc 

@@ -1,0 +1,6 @@
+TGV/
+.env
+node_modules/
+Log
+*.Tgv
+.setup

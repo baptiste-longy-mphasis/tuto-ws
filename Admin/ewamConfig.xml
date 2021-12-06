@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<eWamConfig>
+<DatabaseDefinitions>
+	<DatabaseDefinition>
+		<DataBaseName>PGZAZURE</DataBaseName>
+		<UserName>test</UserName>
+		<Password>123456</Password>
+	</DatabaseDefinition>
+</DatabaseDefinitions>
+</eWamConfig>

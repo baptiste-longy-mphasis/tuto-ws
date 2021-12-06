@@ -1,0 +1,2003 @@
+
+> ewam-app-demo@0.0.1 ewam:patch-system D:\DevEnvironments\Wynsure7
+> node ./scripts/call.js ewamconsole.exe /PATCHSYSTEM
+
+Patching system databases...
+..myImageM  patched in class aFullObject
+Version  patched in class aFullObject
+Id  patched in class aFullObject
+NSId  patched in class aFullObject
+aFullObject patched !
+.IsMultiLang  patched in class aEntity
+Modifiers  patched in class aEntity
+LanguageSpecific  patched in class aEntity
+IRStatus  patched in class aEntity
+IREntity  patched in class aEntity
+Comment  patched in class aEntity
+Visibility  patched in class aEntity
+myText  patched in class aEntity
+Name  patched in class aEntity
+aEntity patched !
+.IsInLine  patched in class aType
+DoesNotInitVar  patched in class aType
+AvailableScenarios  patched in class aType
+Modifiers  patched in class aType
+aType patched !
+.isPacked  patched in class aRecordDesc
+GenTimeVarsSize  patched in class aRecordDesc
+DerivesFrom  patched in class aRecordDesc
+myVars  patched in class aRecordDesc
+aRecordDesc patched !
+.ViewingSyntax  patched in class aCUDef
+ExtDefRefIds  patched in class aCUDef
+ParsingSyntax  patched in class aCUDef
+LastOwnedId  patched in class aCUDef
+LastMotorId  patched in class aCUDef
+myUses  patched in class aCUDef
+myCurImplem  patched in class aCUDef
+myMethods  patched in class aCUDef
+myTypes  patched in class aCUDef
+myClasses  patched in class aCUDef
+myConsts  patched in class aCUDef
+aCUDef patched !
+.IRMemoryVersion  patched in class aModuleDef
+ModuleStatus  patched in class aModuleDef
+IsSyntaxOk  patched in class aModuleDef
+myVars  patched in class aModuleDef
+AvailableScenarios  patched in class aModuleDef
+aModuleDef patched !
+.AccessPlanDescs  patched in class aClassDef
+Descendants  patched in class aClassDef
+UseAncestorScenario  patched in class aClassDef
+VarDefaultPickerScenario  patched in class aClassDef
+VarDefaultPickerClassDef  patched in class aClassDef
+VarDefaultConsultScenario  patched in class aClassDef
+VarDefaultModifyScenario  patched in class aClassDef
+VarDefaultCreateScenario  patched in class aClassDef
+isInAModule  patched in class aClassDef
+isForAScenario  patched in class aClassDef
+IsLight  patched in class aClassDef
+VarDefaultAccessPlanDesc  patched in class aClassDef
+myClassInstance  patched in class aClassDef
+myMethods  patched in class aClassDef
+DerivesFrom  patched in class aClassDef
+myVars  patched in class aClassDef
+Modifiers  patched in class aClassDef
+aClassDef patched !
+.LastCheckedReimplementedImplemVersion  patched in class aReimplemClassDef
+LastCheckedReimplementedVersion  patched in class aReimplemClassDef
+Priority  patched in class aReimplemClassDef
+HasPriorityConflict  patched in class aReimplemClassDef
+AuthorisedReimplemKind  patched in class aReimplemClassDef
+IsActive  patched in class aReimplemClassDef
+FullReimplementation  patched in class aReimplemClassDef
+Reimplementing  patched in class aReimplemClassDef
+aReimplemClassDef patched !
+.LastCheckedReimplementedImplemVersion  patched in class aReimplemModuleDef
+LastCheckedReimplementedVersion  patched in class aReimplemModuleDef
+Priority  patched in class aReimplemModuleDef
+HasPriorityConflict  patched in class aReimplemModuleDef
+AuthorisedReimplemKind  patched in class aReimplemModuleDef
+IsActive  patched in class aReimplemModuleDef
+FullReimplementation  patched in class aReimplemModuleDef
+Reimplementing  patched in class aReimplemModuleDef
+aReimplemModuleDef patched !
+.IRFormatVersion  patched in class aCUImplem
+SaveSourceAnyway  patched in class aCUImplem
+myIDLText  patched in class aCUImplem
+Spare3  patched in class aCUImplem
+Spare2  patched in class aCUImplem
+Spare1  patched in class aCUImplem
+InstallableIsInProgress  patched in class aCUImplem
+ParsingStatus  patched in class aCUImplem
+IdentifierOrigin  patched in class aCUImplem
+ParseErrors  patched in class aCUImplem
+StatementLines  patched in class aCUImplem
+IRStatements  patched in class aCUImplem
+myOriginalText  patched in class aCUImplem
+myTextFromMM  patched in class aCUImplem
+IrIsReady  patched in class aCUImplem
+myOwnReferencedIds  patched in class aCUImplem
+myExtReferencedIds  patched in class aCUImplem
+myMethodImplems  patched in class aCUImplem
+myClassImplems  patched in class aCUImplem
+aCUImplem patched !
+.GlobalVersion  patched in class aModuleImplem
+DerivesFrom  patched in class aModuleImplem
+aModuleImplem patched !
+.myMethods  patched in class aClassImplem
+DerivesFrom  patched in class aClassImplem
+aClassImplem patched !
+.Dummy_myMethodBody  patched in class aMethodImplem
+DerivesFrom  patched in class aMethodImplem
+myVars  patched in class aMethodImplem
+aMethodImplem patched !
+..HasSelector  patched in class aVariantRecordDesc
+myVariants  patched in class aVariantRecordDesc
+aVariantRecordDesc patched !
+.RawVarSize  patched in class aBasicType
+aBasicType patched !
+.......BaseEnumType  patched in class aSetType
+aSetType patched !
+..BaseType  patched in class aSubRangeType
+MaxRange  patched in class aSubRangeType
+MinRange  patched in class aSubRangeType
+aSubRangeType patched !
+.Choices  patched in class aEnumType
+DerivesFrom  patched in class aEnumType
+aEnumType patched !
+.WithNullChoice  patched in class aEnumSetType
+aEnumSetType patched !
+....MyPointedType  patched in class aPointerType
+aPointerType patched !
+.increment  patched in class aResizablePointerType
+aResizablePointerType patched !
+..unused  patched in class aIndentedTextType
+indentSize  patched in class aIndentedTextType
+aIndentedTextType patched !
+..........Spare  patched in class aArrayType
+isPacked  patched in class aArrayType
+myIndexType  patched in class aArrayType
+myElementType  patched in class aArrayType
+aArrayType patched !
+..RenamedType  patched in class aRenamingType
+aRenamingType patched !
+.theExtractMaxSize  patched in class aReferenceType
+theExtractParam  patched in class aReferenceType
+theExtractKind  patched in class aReferenceType
+StoreExtract  patched in class aReferenceType
+FreezeRefObject  patched in class aReferenceType
+stillsOnFreeze  patched in class aReferenceType
+usesCurrentProject  patched in class aReferenceType
+pointsToVersion  patched in class aReferenceType
+isActiveSide  patched in class aReferenceType
+isIntegral  patched in class aReferenceType
+isOwner  patched in class aReferenceType
+LoadRefThings  patched in class aReferenceType
+InTransaction  patched in class aReferenceType
+theRole  patched in class aReferenceType
+aReferenceType patched !
+..Sorted  patched in class aListofReftosType
+CanMove  patched in class aListofReftosType
+aListofReftosType patched !
+.ListElementType  patched in class aListOfTypedType
+aListOfTypedType patched !
+.SizeOfRecord  patched in class aListOfInstancesType
+aListOfInstancesType patched !
+..............GenTimeParametersSize  patched in class aMethodType
+myParameters  patched in class aMethodType
+ReturnType  patched in class aMethodType
+aMethodType patched !
+...HelpText  patched in class aScenario
+myAvailableEvents  patched in class aScenario
+myMenus  patched in class aScenario
+SubComponents  patched in class aScenario
+myCodeAndDefOrImplem  patched in class aScenario
+DerivesFrom  patched in class aScenario
+IconName  patched in class aScenario
+IsKillOnUIAgentKill  patched in class aScenario
+IsVirtual  patched in class aScenario
+DefaultTitleExtractParam  patched in class aScenario
+DefaultTitleExtractKind  patched in class aScenario
+DefaultTitleKind  patched in class aScenario
+DefaultExecMode  patched in class aScenario
+DefaultStoreMode  patched in class aScenario
+WindowPosition  patched in class aScenario
+Style  patched in class aScenario
+Border  patched in class aScenario
+DefaultKinds  patched in class aScenario
+DefaultBackColor  patched in class aScenario
+DefaultForeColor  patched in class aScenario
+DefaultFont  patched in class aScenario
+DefaultHeightFactor  patched in class aScenario
+DefaultWidthFactor  patched in class aScenario
+DefaultYFactor  patched in class aScenario
+DefaultXFactor  patched in class aScenario
+DefaultHeight  patched in class aScenario
+DefaultWidth  patched in class aScenario
+DefaultY  patched in class aScenario
+DefaultX  patched in class aScenario
+myType  patched in class aScenario
+Modifiers  patched in class aScenario
+aScenario patched !
+.WindowChildKinds  patched in class aToolBarScenario
+ToolBarKinds  patched in class aToolBarScenario
+aToolBarScenario patched !
+.....DefaultFormat  patched in class aXXXAsListBox
+DefaultTabulations  patched in class aXXXAsListBox
+DefaultSeparators  patched in class aXXXAsListBox
+DefaultShadow  patched in class aXXXAsListBox
+DefaultKinds  patched in class aXXXAsListBox
+aXXXAsListBox patched !
+...DefaultWithIndex  patched in class aArrayTypeAsListBox
+aArrayTypeAsListBox patched !
+....DefaultKinds  patched in class aXXXAsListTreeCtrl
+aXXXAsListTreeCtrl patched !
+.DefaultKinds  patched in class aXXXAsListCtrl
+aXXXAsListCtrl patched !
+..DefaultTrailingTextColor  patched in class aXXXAsMonthCalCtrl
+DefaultTitleTextColor  patched in class aXXXAsMonthCalCtrl
+DefaultTitleBackColor  patched in class aXXXAsMonthCalCtrl
+DefaultMonthTextColor  patched in class aXXXAsMonthCalCtrl
+DefaultMonthBackColor  patched in class aXXXAsMonthCalCtrl
+DefaultBetweenMonthBackColor  patched in class aXXXAsMonthCalCtrl
+DefaultKinds  patched in class aXXXAsMonthCalCtrl
+aXXXAsMonthCalCtrl patched !
+.DefaultTrailingTextColor  patched in class aXXXAsDateTimeCtrl
+DefaultTitleTextColor  patched in class aXXXAsDateTimeCtrl
+DefaultTitleBackColor  patched in class aXXXAsDateTimeCtrl
+DefaultMonthTextColor  patched in class aXXXAsDateTimeCtrl
+DefaultMonthBackColor  patched in class aXXXAsDateTimeCtrl
+DefaultBetweenMonthBackColor  patched in class aXXXAsDateTimeCtrl
+DefaultKinds  patched in class aXXXAsDateTimeCtrl
+aXXXAsDateTimeCtrl patched !
+.DefaultControlName  patched in class aXXXAsOleControl
+aXXXAsOleControl patched !
+.DefaultType  patched in class aXXXAsBitMap
+DefaultKinds  patched in class aXXXAsBitMap
+aXXXAsBitMap patched !
+.....DefaultShadow  patched in class aXXXAsMLE
+DefaultKinds  patched in class aXXXAsMLE
+aXXXAsMLE patched !
+....Position  patched in class aXXXAsFolder
+PushButtonKinds  patched in class aXXXAsFolder
+FolderDimension  patched in class aXXXAsFolder
+DistanceBottom  patched in class aXXXAsFolder
+DistanceTop  patched in class aXXXAsFolder
+DistanceRight  patched in class aXXXAsFolder
+DistanceLeft  patched in class aXXXAsFolder
+aXXXAsFolder patched !
+.myDefaultRefScenario  patched in class aListOfFolderScenario
+aListOfFolderScenario patched !
+.DefaultKinds  patched in class aXXXAsMenuItem
+aXXXAsMenuItem patched !
+...........DefaultCascadedInsertAtEnd  patched in class aListOfCascadeScenario
+aListOfCascadeScenario patched !
+...DefaultShadow  patched in class aXXXAsEF
+DefaultJustification  patched in class aXXXAsEF
+DefaultFormat  patched in class aXXXAsEF
+DefaultKinds  patched in class aXXXAsEF
+aXXXAsEF patched !
+.....DefaultShadow  patched in class aXXXAsHScrollBar
+DefaultKinds  patched in class aXXXAsHScrollBar
+aXXXAsHScrollBar patched !
+....DefaultShadow  patched in class aXXXAsVScrollBar
+DefaultKinds  patched in class aXXXAsVScrollBar
+aXXXAsVScrollBar patched !
+....DefaultShadow  patched in class aXXXAsComboBoxEntry
+DefaultJustification  patched in class aXXXAsComboBoxEntry
+DefaultFormat  patched in class aXXXAsComboBoxEntry
+DefaultKinds  patched in class aXXXAsComboBoxEntry
+aXXXAsComboBoxEntry patched !
+...DefaultShadow  patched in class aXXXAsComboBox
+DefaultKinds  patched in class aXXXAsComboBox
+aXXXAsComboBox patched !
+...DefaultShadow  patched in class aXXXAsCheckBox
+DefaultKinds  patched in class aXXXAsCheckBox
+aXXXAsCheckBox patched !
+...DefaultKinds  patched in class aXXXAsPushButton
+aXXXAsPushButton patched !
+....DefaultShadow  patched in class aXXXAsRadioButton
+DefaultKinds  patched in class aXXXAsRadioButton
+aXXXAsRadioButton patched !
+..DefaultJustification  patched in class aXXXAsGroupBox
+DefaultShadow  patched in class aXXXAsGroupBox
+DefaultKinds  patched in class aXXXAsGroupBox
+aXXXAsGroupBox patched !
+..DefaultShadow  patched in class aXXXAsStaticText
+DefaultJustification  patched in class aXXXAsStaticText
+DefaultKinds  patched in class aXXXAsStaticText
+aXXXAsStaticText patched !
+............myDefaultRefScenario  patched in class aRefScenario
+aRefScenario patched !
+..xamlTechnology  patched in class aXAMLScenario
+lazySubAgentFinalizationMode  patched in class aXAMLScenario
+aXAMLScenario patched !
+.boundAttributeQVPs  patched in class aXAMLTemplateScen
+items  patched in class aXAMLTemplateScen
+aXAMLTemplateScen patched !
+....OneWindowVisible  patched in class aClassAsView
+SubComponents  patched in class aClassAsView
+aClassAsView patched !
+.Position  patched in class aClassAsFolderView
+PushButtonKinds  patched in class aClassAsFolderView
+FolderDimension  patched in class aClassAsFolderView
+DistanceBottom  patched in class aClassAsFolderView
+DistanceTop  patched in class aClassAsFolderView
+DistanceRight  patched in class aClassAsFolderView
+DistanceLeft  patched in class aClassAsFolderView
+FinalizeAtRunTime  patched in class aClassAsFolderView
+aClassAsFolderView patched !
+.IsHorizontal  patched in class aClassAsSplitView
+aClassAsSplitView patched !
+.myMDIMotherScenario  patched in class aMDIChildWindowScenario
+aMDIChildWindowScenario patched !
+.....InterWidth  patched in class aSetAsStaticGCB
+Vertical  patched in class aSetAsStaticGCB
+aSetAsStaticGCB patched !
+..InterWidth  patched in class aEnumAsStaticGRB
+Vertical  patched in class aEnumAsStaticGRB
+aEnumAsStaticGRB patched !
+.MyPointedScenario  patched in class aPointerTypeScenario
+aPointerTypeScenario patched !
+.........Reimplementing  patched in class aScenarioReimplem
+ReimplemWith  patched in class aScenarioReimplem
+aScenarioReimplem patched !
+....MotorId  patched in class aIdentifierDesc
+myType  patched in class aIdentifierDesc
+aIdentifierDesc patched !
+.ExecutionMode  patched in class aMethodDesc
+IsForwarded  patched in class aMethodDesc
+Dummy_myMethodBody  patched in class aMethodDesc
+myCurImplem  patched in class aMethodDesc
+OnlyInModification  patched in class aMethodDesc
+myType  patched in class aMethodDesc
+Modifiers  patched in class aMethodDesc
+aMethodDesc patched !
+.DllRoutineName  patched in class aExternalMethodDesc
+DllName  patched in class aExternalMethodDesc
+aExternalMethodDesc patched !
+.ReimplemMethod  patched in class aReimplemMethodDesc
+myType  patched in class aReimplemMethodDesc
+aReimplemMethodDesc patched !
+..ThrowsClasses  patched in class aThrowClassMethodDesc
+aThrowClassMethodDesc patched !
+.ThrowsClasses  patched in class aThrowMethodDesc
+aThrowMethodDesc patched !
+.OverridenMethod  patched in class aOverrideMethodDesc
+myType  patched in class aOverrideMethodDesc
+aOverrideMethodDesc patched !
+.myType  patched in class aReUsingMethodDesc
+aReUsingMethodDesc patched !
+.myVarLink  patched in class aVarDesc
+GenTimeOffset  patched in class aVarDesc
+aVarDesc patched !
+.IsTransient  patched in class aInstanceVarDesc
+SegNumber  patched in class aInstanceVarDesc
+Modifiers  patched in class aInstanceVarDesc
+aInstanceVarDesc patched !
+..theRefVardesc  patched in class aAbsoluteModuleVarDesc
+aAbsoluteModuleVarDesc patched !
+..ReimplemVar  patched in class aReimplemInstanceVarDesc
+aReimplemInstanceVarDesc patched !
+.OverridenVar  patched in class aOverrideInstanceVarDesc
+aOverrideInstanceVarDesc patched !
+.theRefVarDesc  patched in class aAbsoluteInstanceVarDesc
+aAbsoluteInstanceVarDesc patched !
+....theRefVarDesc  patched in class aAbsoluteVarDesc
+aAbsoluteVarDesc patched !
+....theRefVarDesc  patched in class aAbsoluteRecordVarDesc
+aAbsoluteRecordVarDesc patched !
+.byAddress  patched in class aParameterDesc
+myType  patched in class aParameterDesc
+aParameterDesc patched !
+...IsInLine  patched in class aConstDesc
+Modifiers  patched in class aConstDesc
+aConstDesc patched !
+.Value  patched in class aConstStructured
+aConstStructured patched !
+..Value  patched in class aConstPointer
+aConstPointer patched !
+.Value  patched in class aConstDBString
+aConstDBString patched !
+.Value  patched in class aConstString
+aConstString patched !
+.Value  patched in class aConstReal
+aConstReal patched !
+.Value  patched in class aConstBoolean
+aConstBoolean patched !
+.Value  patched in class aConstDBChar
+aConstDBChar patched !
+.Value  patched in class aConstChar
+aConstChar patched !
+.Value  patched in class aConstInt8
+aConstInt8 patched !
+.Value  patched in class aConstEnum
+aConstEnum patched !
+.Value  patched in class aConstInt2
+aConstInt2 patched !
+.Value  patched in class aConstInt4
+aConstInt4 patched !
+.Value  patched in class aConstInt1
+aConstInt1 patched !
+.Presenting  patched in class aDBEntity
+aDBEntity patched !
+..UseClassDefAPDescs  patched in class aDBClassDefRepresentation
+myAccessPlanDescs  patched in class aDBClassDefRepresentation
+Reserve  patched in class aDBClassDefRepresentation
+NbrversionsKept  patched in class aDBClassDefRepresentation
+aDBClassDefRepresentation patched !
+.IsMappingOK  patched in class aSqlClassDefRepresentation
+PersistencyKind  patched in class aSqlClassDefRepresentation
+hasIdAccessPlan  patched in class aSqlClassDefRepresentation
+DescriptionReady  patched in class aSqlClassDefRepresentation
+myTableKind  patched in class aSqlClassDefRepresentation
+myDDL  patched in class aSqlClassDefRepresentation
+AccessPlansSQLDescs  patched in class aSqlClassDefRepresentation
+ClassTable  patched in class aSqlClassDefRepresentation
+Modifiers  patched in class aSqlClassDefRepresentation
+aSqlClassDefRepresentation patched !
+...Clustered  patched in class aSqlIndexDesc
+myColumns  patched in class aSqlIndexDesc
+Unique  patched in class aSqlIndexDesc
+Primary  patched in class aSqlIndexDesc
+aSqlIndexDesc patched !
+.myColumns  patched in class aSqlColumnSetDesc
+aSqlColumnSetDesc patched !
+.dummyHasIsFinal  patched in class aSqlTableDesc
+dummyHasIsCurrentVersion  patched in class aSqlTableDesc
+dummyHasNoVersion  patched in class aSqlTableDesc
+dummyHasThingRefCount  patched in class aSqlTableDesc
+dummyHasRefCount  patched in class aSqlTableDesc
+dummyHasClassVersion  patched in class aSqlTableDesc
+dummyHasClassId  patched in class aSqlTableDesc
+myIndexes  patched in class aSqlTableDesc
+aSqlTableDesc patched !
+..LoadRefWithMain  patched in class aSqlRefToColumnSetDesc
+aSqlRefToColumnSetDesc patched !
+.NoInterTable  patched in class aSqlListOfColumnSetDesc
+StoredAsBinary  patched in class aSqlListOfColumnSetDesc
+InterTable  patched in class aSqlListOfColumnSetDesc
+FastLoadOptimizationRequired  patched in class aSqlListOfColumnSetDesc
+aSqlListOfColumnSetDesc patched !
+..PrimaryKey  patched in class aSqlColumnDesc
+Existing  patched in class aSqlColumnDesc
+myData  patched in class aSqlColumnDesc
+myType  patched in class aSqlColumnDesc
+aSqlColumnDesc patched !
+.TextStorageKind  patched in class aSqlTextColumnDesc
+aSqlTextColumnDesc patched !
+.LoadedColumns  patched in class aSqlAPDesc
+IsCurrentColumn  patched in class aSqlAPDesc
+IsKilledColumn  patched in class aSqlAPDesc
+WhereColumns  patched in class aSqlAPDesc
+myIndexes  patched in class aSqlAPDesc
+aSqlAPDesc patched !
+..syntax  patched in class aXAMLTemplateItem
+aXAMLTemplateItem patched !
+.serializer  patched in class aXTEventDesc
+alias  patched in class aXTEventDesc
+method  patched in class aXTEventDesc
+eventName  patched in class aXTEventDesc
+aXTEventDesc patched !
+.attributesText  patched in class aXAMLTemplateVarBinding
+aXAMLTemplateVarBinding patched !
+.qvp  patched in class aXTVBForAttribute
+aXTVBForAttribute patched !
+.qvp  patched in class aXTVBWithScen
+aXTVBWithScen patched !
+.noPreload  patched in class aXTImageSource
+path  patched in class aXTImageSource
+aXTImageSource patched !
+.eventDescs  patched in class aXTComponentEventsDesc
+source  patched in class aXTComponentEventsDesc
+aXTComponentEventsDesc patched !
+..data  patched in class aXTInsertionPoint
+idString  patched in class aXTInsertionPoint
+aXTInsertionPoint patched !
+.followingTabLevel  patched in class aXAMLTemplateFragment
+fragmentText  patched in class aXAMLTemplateFragment
+aXAMLTemplateFragment patched !
+..extractParam  patched in class aLOIExtractIBBParameterList
+extractKind  patched in class aLOIExtractIBBParameterList
+aLOIExtractIBBParameterList patched !
+..ibbParams  patched in class aListAsBAConverterParameterList
+itemBindingBrokerClass  patched in class aListAsBAConverterParameterList
+aListAsBAConverterParameterList patched !
+.HelpText  patched in class aQVarPresentor
+myOwnedScenario  patched in class aQVarPresentor
+myScenario  patched in class aQVarPresentor
+myVar  patched in class aQVarPresentor
+IsKillOnUIAgentKill  patched in class aQVarPresentor
+ActiveWhenDebugging  patched in class aQVarPresentor
+IsForTheType  patched in class aQVarPresentor
+IsClassDiscriminant  patched in class aQVarPresentor
+UserData  patched in class aQVarPresentor
+ExecMode  patched in class aQVarPresentor
+StoreMode  patched in class aQVarPresentor
+ExecMask  patched in class aQVarPresentor
+FontSels  patched in class aQVarPresentor
+FontSize  patched in class aQVarPresentor
+Font  patched in class aQVarPresentor
+FontName  patched in class aQVarPresentor
+WindowPosition  patched in class aQVarPresentor
+Style  patched in class aQVarPresentor
+Border  patched in class aQVarPresentor
+Kinds  patched in class aQVarPresentor
+BackColor  patched in class aQVarPresentor
+ForeColor  patched in class aQVarPresentor
+Len  patched in class aQVarPresentor
+HeightFactor  patched in class aQVarPresentor
+WidthFactor  patched in class aQVarPresentor
+YFactor  patched in class aQVarPresentor
+XFactor  patched in class aQVarPresentor
+Height  patched in class aQVarPresentor
+Width  patched in class aQVarPresentor
+Y  patched in class aQVarPresentor
+X  patched in class aQVarPresentor
+aQVarPresentor patched !
+.AdjustKind  patched in class aQVPRefScenario
+myRefScenario  patched in class aQVPRefScenario
+aQVPRefScenario patched !
+.parameterList  patched in class aBoundAttributeQVP
+targetType  patched in class aBoundAttributeQVP
+converterClassDef  patched in class aBoundAttributeQVP
+aBoundAttributeQVP patched !
+.lazySubAgentFinalizationMode  patched in class aXAMLScenarioQVP
+aXAMLScenarioQVP patched !
+..ExplanationFont  patched in class aQVPWithExplanation
+ExplanationKinds  patched in class aQVPWithExplanation
+ExplanationBackColor  patched in class aQVPWithExplanation
+ExplanationForeColor  patched in class aQVPWithExplanation
+ExplanationText  patched in class aQVPWithExplanation
+aQVPWithExplanation patched !
+.TrailingTextColor  patched in class aQVPXXXAsMonthCalCtrl
+TitleTextColor  patched in class aQVPXXXAsMonthCalCtrl
+TitleBackColor  patched in class aQVPXXXAsMonthCalCtrl
+MonthTextColor  patched in class aQVPXXXAsMonthCalCtrl
+MonthBackColor  patched in class aQVPXXXAsMonthCalCtrl
+BetweenMonthBackColor  patched in class aQVPXXXAsMonthCalCtrl
+Kinds  patched in class aQVPXXXAsMonthCalCtrl
+aQVPXXXAsMonthCalCtrl patched !
+.TrailingTextColor  patched in class aQVPXXXAsDateTimeCtrl
+TitleTextColor  patched in class aQVPXXXAsDateTimeCtrl
+TitleBackColor  patched in class aQVPXXXAsDateTimeCtrl
+MonthTextColor  patched in class aQVPXXXAsDateTimeCtrl
+MonthBackColor  patched in class aQVPXXXAsDateTimeCtrl
+BetweenMonthBackColor  patched in class aQVPXXXAsDateTimeCtrl
+Kinds  patched in class aQVPXXXAsDateTimeCtrl
+aQVPXXXAsDateTimeCtrl patched !
+.Format  patched in class aQVPXXXAsListBox
+Tabulations  patched in class aQVPXXXAsListBox
+Separators  patched in class aQVPXXXAsListBox
+Shadow  patched in class aQVPXXXAsListBox
+Kinds  patched in class aQVPXXXAsListBox
+aQVPXXXAsListBox patched !
+.Kinds  patched in class aQVPXXXAsListTreeCtrl
+aQVPXXXAsListTreeCtrl patched !
+.Kinds  patched in class aQVPXXXAsListCtrl
+aQVPXXXAsListCtrl patched !
+.LastColumnAutoSize  patched in class aQVPBuildInListOfTypeScenario
+TitleDisplayed  patched in class aQVPBuildInListOfTypeScenario
+myColumns  patched in class aQVPBuildInListOfTypeScenario
+aQVPBuildInListOfTypeScenario patched !
+.WithIndex  patched in class aQVPArrayTypeAsListBox
+aQVPArrayTypeAsListBox patched !
+.Shadow  patched in class aQVPXXXAsEF
+Justification  patched in class aQVPXXXAsEF
+Format  patched in class aQVPXXXAsEF
+Kinds  patched in class aQVPXXXAsEF
+aQVPXXXAsEF patched !
+.IsHorizontal  patched in class aQVPXXXAsGauge
+aQVPXXXAsGauge patched !
+.ActiveInExecMode  patched in class aQVPXXXAsExecutableControl
+CallKinds  patched in class aQVPXXXAsExecutableControl
+aQVPXXXAsExecutableControl patched !
+.DisabledBitMap  patched in class aQVPXXXAsBitMap
+ReleasedBitMap  patched in class aQVPXXXAsBitMap
+PressedBitMap  patched in class aQVPXXXAsBitMap
+BmpType  patched in class aQVPXXXAsBitMap
+Kinds  patched in class aQVPXXXAsBitMap
+aQVPXXXAsBitMap patched !
+.Kinds  patched in class aQVPXXXAsPushButton
+aQVPXXXAsPushButton patched !
+.Shadow  patched in class aQVPXXXAsRadioButton
+Kinds  patched in class aQVPXXXAsRadioButton
+aQVPXXXAsRadioButton patched !
+.Justification  patched in class aQVPXXXAsGroupBox
+Shadow  patched in class aQVPXXXAsGroupBox
+Kinds  patched in class aQVPXXXAsGroupBox
+aQVPXXXAsGroupBox patched !
+.Shadow  patched in class aQVPXXXAsStaticText
+Justification  patched in class aQVPXXXAsStaticText
+Kinds  patched in class aQVPXXXAsStaticText
+aQVPXXXAsStaticText patched !
+.Shadow  patched in class aQVPXXXAsVScrollBar
+Kinds  patched in class aQVPXXXAsVScrollBar
+aQVPXXXAsVScrollBar patched !
+.Shadow  patched in class aQVPXXXAsHScrollBar
+Kinds  patched in class aQVPXXXAsHScrollBar
+aQVPXXXAsHScrollBar patched !
+.Shadow  patched in class aQVPXXXAsCheckBox
+Kinds  patched in class aQVPXXXAsCheckBox
+aQVPXXXAsCheckBox patched !
+.Shadow  patched in class aQVPXXXAsComboBoxEntry
+Justification  patched in class aQVPXXXAsComboBoxEntry
+Format  patched in class aQVPXXXAsComboBoxEntry
+Kinds  patched in class aQVPXXXAsComboBoxEntry
+aQVPXXXAsComboBoxEntry patched !
+.Shadow  patched in class aQVPXXXAsComboBox
+Kinds  patched in class aQVPXXXAsComboBox
+aQVPXXXAsComboBox patched !
+.Shadow  patched in class aQVPXXXAsMLE
+Kinds  patched in class aQVPXXXAsMLE
+aQVPXXXAsMLE patched !
+.PropertiesText  patched in class aQVPXXXAsOleControl
+aQVPXXXAsOleControl patched !
+.HidePrevOrNextQVarPresentor  patched in class aQVPXXXAsMenuItem
+PlaceNext  patched in class aQVPXXXAsMenuItem
+PrevOrNextQVarPresentor  patched in class aQVPXXXAsMenuItem
+ActiveInExecMode  patched in class aQVPXXXAsMenuItem
+Kinds  patched in class aQVPXXXAsMenuItem
+aQVPXXXAsMenuItem patched !
+..ChosenRank  patched in class aQVPIndexedBuildInListScenario
+aQVPIndexedBuildInListScenario patched !
+.Position  patched in class aQVPXXXAsFolder
+PushButtonKinds  patched in class aQVPXXXAsFolder
+FolderDimension  patched in class aQVPXXXAsFolder
+DistanceBottom  patched in class aQVPXXXAsFolder
+DistanceTop  patched in class aQVPXXXAsFolder
+DistanceRight  patched in class aQVPXXXAsFolder
+DistanceLeft  patched in class aQVPXXXAsFolder
+aQVPXXXAsFolder patched !
+.AdjustKind  patched in class aQVPListOfFolderScenario
+myRefScenario  patched in class aQVPListOfFolderScenario
+aQVPListOfFolderScenario patched !
+.theBMPParam  patched in class aQVPListof
+thePlusBMPKind  patched in class aQVPListof
+theMinusBMPKind  patched in class aQVPListof
+theEmptyBMPKind  patched in class aQVPListof
+StringExtractParam  patched in class aQVPListof
+StringExtractKind  patched in class aQVPListof
+aQVPListof patched !
+.LevelDescription  patched in class aQVPListOfCascade
+CascadedInsertAtEnd  patched in class aQVPListOfCascade
+theCascadeMethodDesc  patched in class aQVPListOfCascade
+aQVPListOfCascade patched !
+.mustNotDisplayRootNode  patched in class aQVPListOfTree
+theTreeMethodDesc  patched in class aQVPListOfTree
+aQVPListOfTree patched !
+.Format  patched in class aQVPGenericListOfScenario
+Tabulations  patched in class aQVPGenericListOfScenario
+Separators  patched in class aQVPGenericListOfScenario
+RealTimeLoading  patched in class aQVPGenericListOfScenario
+aQVPGenericListOfScenario patched !
+.BuildPresentedObject  patched in class aQVPDataTemplateScenario
+myPresentedClassDef  patched in class aQVPDataTemplateScenario
+aQVPDataTemplateScenario patched !
+.KillValueMethodDesc  patched in class aQVPVoidAsTreeBox
+LoadValueMethodDesc  patched in class aQVPVoidAsTreeBox
+aQVPVoidAsTreeBox patched !
+.AdjustKind  patched in class aQVPReturnTypeScenario
+theReturnScenario  patched in class aQVPReturnTypeScenario
+aQVPReturnTypeScenario patched !
+.CallOnLoadValue  patched in class aQVPBuildInMethodTypeScenario
+AutoTriggered  patched in class aQVPBuildInMethodTypeScenario
+aQVPBuildInMethodTypeScenario patched !
+.DerivesFrom  patched in class aAccessPlanDesc
+Kind  patched in class aAccessPlanDesc
+Modifiers  patched in class aAccessPlanDesc
+aAccessPlanDesc patched !
+..Separator  patched in class aVarDependantAccessPlanDesc
+Components  patched in class aVarDependantAccessPlanDesc
+aVarDependantAccessPlanDesc patched !
+.BasedOn  patched in class aExtVarDependantAccessPlanDesc
+aExtVarDependantAccessPlanDesc patched !
+...myContext  patched in class aApplication
+aApplication patched !
+.RightDockedTools  patched in class aWideIde
+LeftDockedTools  patched in class aWideIde
+NoRefDevDBWaiting  patched in class aWideIde
+WAMExecutionMode  patched in class aWideIde
+LB  patched in class aWideIde
+EntitiesToRefresh  patched in class aWideIde
+PopUpExtensions  patched in class aWideIde
+theDataBaseDesigner  patched in class aWideIde
+theTutorialManager  patched in class aWideIde
+theDebuggingContext  patched in class aWideIde
+IAmDebugging  patched in class aWideIde
+RunningComment  patched in class aWideIde
+ParsingComment  patched in class aWideIde
+GeneralComment  patched in class aWideIde
+ModulesCatalogue  patched in class aWideIde
+GraphsCatalogue  patched in class aWideIde
+theHelpManager  patched in class aWideIde
+theExportManager  patched in class aWideIde
+theFilePicker  patched in class aWideIde
+theTextSearcher  patched in class aWideIde
+theDataBaseBrowser  patched in class aWideIde
+theMetaModelBrowser  patched in class aWideIde
+myContext  patched in class aWideIde
+aWideIde patched !
+.myRunTimeClone  patched in class aRoleType
+theRoleClassDef  patched in class aRoleType
+aRoleType patched !
+.AccessPlanDescForSearch  patched in class aSingleRoleType
+InChargeOfDeletingBackRef  patched in class aSingleRoleType
+OnlyDescendants  patched in class aSingleRoleType
+CreateDescendants  patched in class aSingleRoleType
+AcceptDescendant  patched in class aSingleRoleType
+WhatCanIDo  patched in class aSingleRoleType
+thePickerScenario  patched in class aSingleRoleType
+thePickerClassDef  patched in class aSingleRoleType
+theModifyScenario  patched in class aSingleRoleType
+theCreateScenario  patched in class aSingleRoleType
+theConsultScenario  patched in class aSingleRoleType
+ConsultModal  patched in class aSingleRoleType
+BackRefVarDesc  patched in class aSingleRoleType
+AcceptedClassDef  patched in class aSingleRoleType
+aSingleRoleType patched !
+.......................................................theSingleRoleList  patched in class aMultiRoleType
+aMultiRoleType patched !
+....FileName  patched in class aSqlOptions
+WriteInFile  patched in class aSqlOptions
+TraceFree  patched in class aSqlOptions
+TraceFetch  patched in class aSqlOptions
+TraceBind  patched in class aSqlOptions
+TraceStmt  patched in class aSqlOptions
+Trace  patched in class aSqlOptions
+aSqlOptions patched !
+.ExtendedScenarioDesign  patched in class aUIBuilderOption
+AskToBuildUIAgentClass  patched in class aUIBuilderOption
+DefaultFontSels  patched in class aUIBuilderOption
+DefaultFontSize  patched in class aUIBuilderOption
+DefaultFontName  patched in class aUIBuilderOption
+aUIBuilderOption patched !
+.EnforceAskForRefDevComment  patched in class aWydeOption
+MinimizeModelAnnotation  patched in class aWydeOption
+ShowModelAnnotation  patched in class aWydeOption
+wExtAnnotationsEnabled  patched in class aWydeOption
+AutoAcceptSyncByDefault  patched in class aWydeOption
+IDEWindowTitle  patched in class aWydeOption
+RejectNonPortableOverrides  patched in class aWydeOption
+ErrTraceRecyclingDays  patched in class aWydeOption
+ErrTraceRecycled  patched in class aWydeOption
+ErrTraceCsvFormat  patched in class aWydeOption
+eWAMExecutionStringEncodingUnicodeUTF8  patched in class aWydeOption
+eWAMStringEncodingUnicodeUTF8  patched in class aWydeOption
+GenerateOtherEntitiesCommentInText  patched in class aWydeOption
+StandardMouse  patched in class aWydeOption
+eWAMExecutionAndDesignThemeKinds  patched in class aWydeOption
+ReplaceSystemFont  patched in class aWydeOption
+eWAMThemeKinds  patched in class aWydeOption
+ParseOQLEvenIfCppOrSqlGenerationImpossible  patched in class aWydeOption
+DontAskForRefDevComment  patched in class aWydeOption
+FormatOQLStatements  patched in class aWydeOption
+AddEndLoopCommentOnlyAfterNbLines  patched in class aWydeOption
+AddEndLoopComment  patched in class aWydeOption
+LookForFieldAlsoInAncestorsAtFirst  patched in class aWydeOption
+UseExternalHelpBrowser  patched in class aWydeOption
+SmallBitmapsInIdeToolbar  patched in class aWydeOption
+SelectNodeWhenJustCreated  patched in class aWydeOption
+SystemPopup  patched in class aWydeOption
+TraceDisposeMem  patched in class aWydeOption
+ExpandReferenceAttributes  patched in class aWydeOption
+MethodInsertion  patched in class aWydeOption
+InsertWhenSingleInList  patched in class aWydeOption
+CodeAgentClassName  patched in class aWydeOption
+UseNameSuggestion  patched in class aWydeOption
+GoldParserClassName  patched in class aWydeOption
+MultiThreadSafeTesting  patched in class aWydeOption
+RollOverButtons  patched in class aWydeOption
+myUIExecMode  patched in class aWydeOption
+OpenDeBugOnInterpOQLInTGV  patched in class aWydeOption
+TraceInterpOQLInTGV  patched in class aWydeOption
+GenerateClassCommentInText  patched in class aWydeOption
+GenerateMethCommentInText  patched in class aWydeOption
+GenerateVarCommentInText  patched in class aWydeOption
+Spare1  patched in class aWydeOption
+MinimizeWAMInSafeTesting  patched in class aWydeOption
+CppTolerant  patched in class aWydeOption
+SeverityLevel  patched in class aWydeOption
+TextBackColor  patched in class aWydeOption
+DontCheckExternals  patched in class aWydeOption
+LineLength  patched in class aWydeOption
+IndentLength  patched in class aWydeOption
+OneParamByColumn  patched in class aWydeOption
+ParamsInColumns  patched in class aWydeOption
+RemoveUnnecessaryUses  patched in class aWydeOption
+FontSels  patched in class aWydeOption
+FontSize  patched in class aWydeOption
+FontName  patched in class aWydeOption
+NoColor  patched in class aWydeOption
+BackGroundBMP  patched in class aWydeOption
+NumberColor  patched in class aWydeOption
+TextColor  patched in class aWydeOption
+StringColor  patched in class aWydeOption
+CommentColor  patched in class aWydeOption
+KeywordColor  patched in class aWydeOption
+FullSafeTesting  patched in class aWydeOption
+FullTestCheckingBeforeTest  patched in class aWydeOption
+FullTestChecking  patched in class aWydeOption
+AskContextSavingConfirmation  patched in class aWydeOption
+ScenarioForClassVertical  patched in class aWydeOption
+aWydeOption patched !
+.TrapSelectAccessViolation  patched in class aInterpreterOptions
+WarningOnStringOverflow  patched in class aInterpreterOptions
+AlertOnWarnings  patched in class aInterpreterOptions
+WarningOnNonProjectAssign  patched in class aInterpreterOptions
+WarningOnOverflow  patched in class aInterpreterOptions
+aInterpreterOptions patched !
+.ConversionKind  patched in class aSqlTypeData
+NotNull  patched in class aSqlTypeData
+aSqlTypeData patched !
+.FixedPrecision  patched in class aSqlType
+TypeKind  patched in class aSqlType
+CStringConversionSize  patched in class aSqlType
+aSqlType patched !
+.DBMgrClassDef  patched in class aDBDef
+LastOwnedId  patched in class aDBDef
+AccessPlanDescriptors  patched in class aDBDef
+myClassDBDefs  patched in class aDBDef
+Shared  patched in class aDBDef
+myDBMgr  patched in class aDBDef
+APDs  patched in class aDBDef
+ClosedDBAtInit  patched in class aDBDef
+toNSIdContext  patched in class aDBDef
+fromNSIdContext  patched in class aDBDef
+toNsId  patched in class aDBDef
+fromNSId  patched in class aDBDef
+dummyInt5  patched in class aDBDef
+MaxConnections  patched in class aDBDef
+StaticMultiThreadDBRank  patched in class aDBDef
+StaticStmtsKept  patched in class aDBDef
+OpenedByApplication  patched in class aDBDef
+StaticMultiThreadedDB  patched in class aDBDef
+StaticCritSection  patched in class aDBDef
+StaticPRBTable  patched in class aDBDef
+DataSetVersion  patched in class aDBDef
+DataSetId  patched in class aDBDef
+aDBDef patched !
+.ExistingTableDescs  patched in class aODBCDBDef
+DataBaseName  patched in class aODBCDBDef
+DDLFileName  patched in class aODBCDBDef
+ReservedWords  patched in class aODBCDBDef
+AvailableTypes  patched in class aODBCDBDef
+hasIdAccessPlan  patched in class aODBCDBDef
+DDL  patched in class aODBCDBDef
+LastAllocatedId  patched in class aODBCDBDef
+DBId  patched in class aODBCDBDef
+NameSpaceId  patched in class aODBCDBDef
+DefaultTableDescs  patched in class aODBCDBDef
+PassWord  patched in class aODBCDBDef
+UserName  patched in class aODBCDBDef
+ODBCDBDefModifiers  patched in class aODBCDBDef
+aODBCDBDef patched !
+.NoKrunchListOfs  patched in class aTGVDBDef
+FullName  patched in class aTGVDBDef
+aTGVDBDef patched !
+.OldVersionCompatible  patched in class aExportManager
+noInteraction  patched in class aExportManager
+isExporting  patched in class aExportManager
+QuitWithoutCleaning  patched in class aExportManager
+ImportingWydeExtension  patched in class aExportManager
+MustHideSource  patched in class aExportManager
+mustUseATranslator  patched in class aExportManager
+ClassTreatedNumber  patched in class aExportManager
+JobDone  patched in class aExportManager
+MustNotSpecifyTarget  patched in class aExportManager
+mustCompareOnlyVersions  patched in class aExportManager
+mustImportDirectlyWithNoIdExpansion  patched in class aExportManager
+AlertConsistencyErrors  patched in class aExportManager
+IntermediateContext  patched in class aExportManager
+toThisContext  patched in class aExportManager
+fromThisContext  patched in class aExportManager
+OriginalList  patched in class aExportManager
+CorrespondingList  patched in class aExportManager
+ClassOrModuleUpdatedNumber  patched in class aExportManager
+ClassOrModuleCreatedNumber  patched in class aExportManager
+curDBDef  patched in class aExportManager
+FileName  patched in class aExportManager
+theTransaction  patched in class aExportManager
+theCatalogue  patched in class aExportManager
+ImportTargets  patched in class aExportManager
+ClassesToExport  patched in class aExportManager
+aExportManager patched !
+.Laps  patched in class aMetaModelBrowser
+InDef  patched in class aMetaModelBrowser
+InImplem  patched in class aMetaModelBrowser
+theReference  patched in class aMetaModelBrowser
+CurrentEntity  patched in class aMetaModelBrowser
+Criterium  patched in class aMetaModelBrowser
+FoundEntities  patched in class aMetaModelBrowser
+BrowseAbleEntitys  patched in class aMetaModelBrowser
+aMetaModelBrowser patched !
+.WydeExtensionId  patched in class aLocalIdDistributor
+LocalDistributedId  patched in class aLocalIdDistributor
+IdDistributer  patched in class aLocalIdDistributor
+aLocalIdDistributor patched !
+.allOthers  patched in class aLocalConfig
+allDBDefs  patched in class aLocalConfig
+allGraphs  patched in class aLocalConfig
+allClasses  patched in class aLocalConfig
+allModules  patched in class aLocalConfig
+aLocalConfig patched !
+.TeamKey  patched in class aRefConfig
+TeamName  patched in class aRefConfig
+KeyInProgress  patched in class aRefConfig
+ActionInProgress  patched in class aRefConfig
+RefGlobalVersion  patched in class aRefConfig
+DeltaWithPrevVersion  patched in class aRefConfig
+FreeOtherEntities  patched in class aRefConfig
+OtherEntities  patched in class aRefConfig
+IdDistributerCount  patched in class aRefConfig
+IdDistributerOut  patched in class aRefConfig
+loggedRefUser  patched in class aRefConfig
+FreeUsers  patched in class aRefConfig
+Users  patched in class aRefConfig
+FreeModulesAndClasses  patched in class aRefConfig
+ModulesAndClasses  patched in class aRefConfig
+aRefConfig patched !
+.theRunningMethodDesc  patched in class aRunningChoice
+theRunningApplicationClassOrModule  patched in class aRunningChoice
+aRunningChoice patched !
+.theInvisibleList  patched in class aInterpretedClassRunningContext
+theStopPointsList  patched in class aInterpretedClassRunningContext
+theClassImplem  patched in class aInterpretedClassRunningContext
+InDllMode  patched in class aInterpretedClassRunningContext
+aInterpretedClassRunningContext patched !
+.theGuineaPig  patched in class aSampleApplication
+aSampleApplication patched !
+.theInterpretedClassesList  patched in class aDebuggingContext
+aDebuggingContext patched !
+.CmdLine  patched in class aRunningContext
+allTraductions  patched in class aRunningContext
+AlertClassDef  patched in class aRunningContext
+theRoot  patched in class aRunningContext
+theTestDBDefs  patched in class aRunningContext
+theRunningChoice  patched in class aRunningContext
+aRunningContext patched !
+.DoNotDisplayWelcomeScreen  patched in class aContext
+RestoreOpenedWindow  patched in class aContext
+ObjectsToRestore  patched in class aContext
+latestDisplayedObjects  patched in class aContext
+aContext patched !
+.WideRunExtensions  patched in class aWideContext
+WideMUserExtensions  patched in class aWideContext
+ProductionApplicationVersion  patched in class aWideContext
+SystemBaseVersion  patched in class aWideContext
+WideExternalCompoExtensions  patched in class aWideContext
+WideModelingExtensions  patched in class aWideContext
+WydeOptions  patched in class aWideContext
+theRefDevDBDef  patched in class aWideContext
+WideDataBaseExtensions  patched in class aWideContext
+WideDeploymentExtensions  patched in class aWideContext
+WideConfigExtensions  patched in class aWideContext
+WideToolsExtensions  patched in class aWideContext
+WideEnvExtensions  patched in class aWideContext
+WideExtensions  patched in class aWideContext
+theGenerator  patched in class aWideContext
+allModules  patched in class aWideContext
+theLocalIdDistributor  patched in class aWideContext
+theLocalConfig  patched in class aWideContext
+RefConfig  patched in class aWideContext
+myRunningContext  patched in class aWideContext
+theDBDefs  patched in class aWideContext
+theNSIdContext  patched in class aWideContext
+LoggedPassWord  patched in class aWideContext
+theLoggedUser  patched in class aWideContext
+ApplicativeClasses  patched in class aWideContext
+ApplicativeRoots  patched in class aWideContext
+theRoot  patched in class aWideContext
+aWideContext patched !
+..myRefOtherEntities  patched in class aUser
+myRefModulesAndClasses  patched in class aUser
+allNonCheckedOutButModifyable  patched in class aUser
+myOtherEntities  patched in class aUser
+hasPredefinedDistributedId  patched in class aUser
+LocalDistributedId  patched in class aUser
+Messages  patched in class aUser
+myModulesAndClasses  patched in class aUser
+userGroup  patched in class aUser
+UserPassWordConfirmation  patched in class aUser
+UserPassWord  patched in class aUser
+aUser patched !
+.BuildingCritRole  patched in class aAPDescComponent
+AutoSize  patched in class aAPDescComponent
+Resizable  patched in class aAPDescComponent
+Grid  patched in class aAPDescComponent
+Justification  patched in class aAPDescComponent
+Len  patched in class aAPDescComponent
+unVisible  patched in class aAPDescComponent
+IsDescending  patched in class aAPDescComponent
+VarOrMethodDesc  patched in class aAPDescComponent
+aAPDescComponent patched !
+.LineJustification  patched in class aColumnQualifier
+LineGridSet  patched in class aColumnQualifier
+LineBackColor  patched in class aColumnQualifier
+LineForeColor  patched in class aColumnQualifier
+TitleJustification  patched in class aColumnQualifier
+TitleGridSet  patched in class aColumnQualifier
+TitleBackColor  patched in class aColumnQualifier
+TitleForeColor  patched in class aColumnQualifier
+RelativeWidth  patched in class aColumnQualifier
+Resizable  patched in class aColumnQualifier
+Fraction  patched in class aColumnQualifier
+Width  patched in class aColumnQualifier
+myVar  patched in class aColumnQualifier
+aColumnQualifier patched !
+.KWHasher  patched in class aCompilerOptions
+Syntax  patched in class aCompilerOptions
+aCompilerOptions patched !
+.RejectNonPortableOverrides  patched in class aGOLDCompilerOptions
+Spare1  patched in class aGOLDCompilerOptions
+CppTolerant  patched in class aGOLDCompilerOptions
+DontCheckExternals  patched in class aGOLDCompilerOptions
+RemoveUnnecessaryUses  patched in class aGOLDCompilerOptions
+aGOLDCompilerOptions patched !
+...IsANewDistributor  patched in class aODBCNameSpace
+lastMemId  patched in class aODBCNameSpace
+aODBCNameSpace patched !
+.LastGivenId  patched in class aAPNS
+aAPNS patched !
+..NewModuleName  patched in class aImportTarget
+theCorrespondingModule  patched in class aImportTarget
+aImportTarget patched !
+.....NbUIScensShown  patched in class aDraggableObjectPresentor
+NbUIMethsShown  patched in class aDraggableObjectPresentor
+NbUIVarsShown  patched in class aDraggableObjectPresentor
+thePresentedEntityHandle  patched in class aDraggableObjectPresentor
+aDraggableObjectPresentor patched !
+.myQVarPresentor  patched in class aEventsContainer
+myClassDef  patched in class aEventsContainer
+aEventsContainer patched !
+.currentTabLevel  patched in class aXAMLContainer
+stateFlags  patched in class aXAMLContainer
+aXAMLContainer patched !
+..BindBuffer  patched in class aInterpreter
+BindIt  patched in class aInterpreter
+TimingsThreshold  patched in class aInterpreter
+Stats  patched in class aInterpreter
+ShowTimings  patched in class aInterpreter
+Laps  patched in class aInterpreter
+aInterpreter patched !
+.myScenario  patched in class aVarPresentor
+aVarPresentor patched !
+..Terminator  patched in class aUIAgent
+Thing  patched in class aUIAgent
+SubQualifiers  patched in class aUIAgent
+SubUIAgents  patched in class aUIAgent
+UIComponents  patched in class aUIAgent
+TopUIAgent  patched in class aUIAgent
+HostUIAgent  patched in class aUIAgent
+myVarAgent  patched in class aUIAgent
+myQVarPresentor  patched in class aUIAgent
+aUIAgent patched !
+.....SelectedMenuItem  patched in class aListOfInstancesAsTreeMenuItemAgent
+aListOfInstancesAsTreeMenuItemAgent patched !
+....TheSelectedMenuItemControl  patched in class aEnumAsMenuItemAgent
+aEnumAsMenuItemAgent patched !
+.........AcceptImage  patched in class aTextUIAgent
+TextRTF  patched in class aTextUIAgent
+TextChangedByUser  patched in class aTextUIAgent
+aTextUIAgent patched !
+...IsHorizontal  patched in class aSubRangeGaugeUIAgent
+MaxWidth  patched in class aSubRangeGaugeUIAgent
+aSubRangeGaugeUIAgent patched !
+........HeaderTextColor  patched in class aListCtrlUIAgent
+HeaderBackColor  patched in class aListCtrlUIAgent
+CustomRowHeight  patched in class aListCtrlUIAgent
+ZebraLightColor  patched in class aListCtrlUIAgent
+ZebraDarkColor  patched in class aListCtrlUIAgent
+ExtendedKinds_G  patched in class aListCtrlUIAgent
+ExtendedKinds  patched in class aListCtrlUIAgent
+aListCtrlUIAgent patched !
+............SubToolBarUIAgents  patched in class aToolBarUIAgent
+HostToolBarUIAgent  patched in class aToolBarUIAgent
+aToolBarUIAgent patched !
+.theMother  patched in class aViewAgent
+CurrentWindowRank  patched in class aViewAgent
+aViewAgent patched !
+.FinalizeAtRunTime  patched in class aFolderViewAgent
+aFolderViewAgent patched !
+............................converter  patched in class aBoundAttributeUIAgent
+aBoundAttributeUIAgent patched !
+.dummyVarDesc  patched in class aXAMLScenarioGenInfoAgent
+qvp  patched in class aXAMLScenarioGenInfoAgent
+resourceList  patched in class aXAMLScenarioGenInfoAgent
+xamlText  patched in class aXAMLScenarioGenInfoAgent
+context  patched in class aXAMLScenarioGenInfoAgent
+encoding  patched in class aXAMLScenarioGenInfoAgent
+mlMod  patched in class aXAMLScenarioGenInfoAgent
+xamlKind  patched in class aXAMLScenarioGenInfoAgent
+aXAMLScenarioGenInfoAgent patched !
+...PushButton  patched in class aRefClassDefUIAgent
+EntryField  patched in class aRefClassDefUIAgent
+aRefClassDefUIAgent patched !
+.....KeepRefUIAgents  patched in class aListOfFolderUIAgent
+RankOfPresentedObject  patched in class aListOfFolderUIAgent
+aListOfFolderUIAgent patched !
+...NameForSelect  patched in class aListOfTreeUIAgent
+aListOfTreeUIAgent patched !
+........Title  patched in class aVoidAsListBoxAgent
+aVoidAsListBoxAgent patched !
+..TheSelectedRadioButton  patched in class aEnumAsGroupOfRBAgent
+aEnumAsGroupOfRBAgent patched !
+.............ST2  patched in class aSystemUIAgent
+ST1  patched in class aSystemUIAgent
+ToC  patched in class aSystemUIAgent
+FromC  patched in class aSystemUIAgent
+theDBDefs  patched in class aSystemUIAgent
+DescendantsInDBDef  patched in class aSystemUIAgent
+aSystemUIAgent patched !
+........aPB is skipped because it is a goldified entity 
+.HookDBMgr  patched in class aDBMgr
+DefaultOqlCursorType  patched in class aDBMgr
+DefaultOqlCursorBatchSize  patched in class aDBMgr
+PbMustNotInitObjectAfterLoad  patched in class aDBMgr
+DefaultLoaderPB  patched in class aDBMgr
+myOtherAPs  patched in class aDBMgr
+myIdAP  patched in class aDBMgr
+InTransaction  patched in class aDBMgr
+AlreadyCommited  patched in class aDBMgr
+LastErrorMsg  patched in class aDBMgr
+LastErrorNum  patched in class aDBMgr
+StatInfo  patched in class aDBMgr
+aDBMgr patched !
+.BadFetchIndicator  patched in class aODBCDBMgr
+FetchIndicator  patched in class aODBCDBMgr
+BadFetchDummy  patched in class aODBCDBMgr
+FetchDummy  patched in class aODBCDBMgr
+SQLTruncationWarningSkipped  patched in class aODBCDBMgr
+SkipSQLTruncationWarning  patched in class aODBCDBMgr
+SelectForUpdateSyntax  patched in class aODBCDBMgr
+IdDistributors  patched in class aODBCDBMgr
+pFetchIndicator  patched in class aODBCDBMgr
+myTracer  patched in class aODBCDBMgr
+hMultiFetchStmt  patched in class aODBCDBMgr
+ConversionBuffer  patched in class aODBCDBMgr
+ODBCStatementText  patched in class aODBCDBMgr
+hStmt  patched in class aODBCDBMgr
+hDBC  patched in class aODBCDBMgr
+hEnv  patched in class aODBCDBMgr
+BaseName  patched in class aODBCDBMgr
+aODBCDBMgr patched !
+.NoKrunchListOfs  patched in class aTGVDBMgr
+myKruncher  patched in class aTGVDBMgr
+myOtherAPDs  patched in class aTGVDBMgr
+ToZapList  patched in class aTGVDBMgr
+myName  patched in class aTGVDBMgr
+myTGV  patched in class aTGVDBMgr
+aTGVDBMgr patched !
+..AddrOfMainInst  patched in class aTGVBuffer
+SizeUsed  patched in class aTGVBuffer
+BuffSize  patched in class aTGVBuffer
+theBuffer  patched in class aTGVBuffer
+aTGVBuffer patched !
+.found  patched in class aAccessPlan
+aAccessPlan patched !
+......TheIndex  patched in class aBtree
+curNode  patched in class aBtree
+deepest  patched in class aBtree
+InsertTactic  patched in class aBtree
+noDuplicates  patched in class aBtree
+lastPerPage  patched in class aBtree
+SizeOfNode  patched in class aBtree
+RootAddress  patched in class aBtree
+IndexLen  patched in class aBtree
+myTGV  patched in class aBtree
+aBtree patched !
+..mySelector  patched in class aPickableList
+aPickableList patched !
+.FirstNotNullRank  patched in class aListOfOneInstancePerThread
+aListOfOneInstancePerThread patched !
+.....DefaultIterator_DEPRECATED  patched in class aSelector
+SelectCriterion  patched in class aSelector
+aSelector patched !
+.OQLCursorMustBeDisposed  patched in class aMultiRequestBroker
+LastErrMsg  patched in class aMultiRequestBroker
+LastErrNum  patched in class aMultiRequestBroker
+BatchSize  patched in class aMultiRequestBroker
+MustNotLoadObject  patched in class aMultiRequestBroker
+forCursor  patched in class aMultiRequestBroker
+curRequestBroker  patched in class aMultiRequestBroker
+curIt  patched in class aMultiRequestBroker
+List  patched in class aMultiRequestBroker
+aMultiRequestBroker patched !
+.BindAddresses  patched in class aInterpMultiRequestBroker
+BindTypes  patched in class aInterpMultiRequestBroker
+WhereBindInfos  patched in class aInterpMultiRequestBroker
+WhereBindBuffer  patched in class aInterpMultiRequestBroker
+aInterpMultiRequestBroker patched !
+.LastResultSetRankFetched  patched in class aOQLRequestBroker
+HasJustMovedPrevOnce  patched in class aOQLRequestBroker
+noMore  patched in class aOQLRequestBroker
+isInitialized  patched in class aOQLRequestBroker
+myMultiBroker  patched in class aOQLRequestBroker
+aOQLRequestBroker patched !
+.myText  patched in class aMonoTableRequestBroker
+myStmt  patched in class aMonoTableRequestBroker
+aMonoTableRequestBroker patched !
+.CurPosInBuf  patched in class aSqlInterpRequestBroker
+Buffer  patched in class aSqlInterpRequestBroker
+FetchColumnNumber  patched in class aSqlInterpRequestBroker
+FetchColumnIterator  patched in class aSqlInterpRequestBroker
+SelectedCols  patched in class aSqlInterpRequestBroker
+aSqlInterpRequestBroker patched !
+.mySelectText  patched in class aSqlInterpDeleteRequestBroker
+aSqlInterpDeleteRequestBroker patched !
+.Selection  patched in class aTGVRequestBroker
+aTGVRequestBroker patched !
+.ForColumn  patched in class aTGVInterpRequestBroker
+CurIntrinsicsBufferPos  patched in class aTGVInterpRequestBroker
+IntrinsicsBuff  patched in class aTGVInterpRequestBroker
+aTGVInterpRequestBroker patched !
+.TableSelectors  patched in class aODBCMultiTableSelector_DEPRECATED
+aODBCMultiTableSelector_DEPRECATED patched !
+.LastErrMsg  patched in class aSqlSelector
+LastErrNum  patched in class aSqlSelector
+QueryTimeOut  patched in class aSqlSelector
+hStmt  patched in class aSqlSelector
+SelectText  patched in class aSqlSelector
+aSqlSelector patched !
+.WhereBindInfos  patched in class aODBCSelector_DEPRECATED
+WhereBindBuffer  patched in class aODBCSelector_DEPRECATED
+SelectedCols  patched in class aODBCSelector_DEPRECATED
+aODBCSelector_DEPRECATED patched !
+.NumIntrinsics  patched in class aTGVSelector_DEPRECATED
+LoadValProc  patched in class aTGVSelector_DEPRECATED
+InstancesThatMeetCriterion  patched in class aTGVSelector_DEPRECATED
+aTGVSelector_DEPRECATED patched !
+.SkipUselessRequests  patched in class aOQLCursor
+OwnedCursors  patched in class aOQLCursor
+MasterCursor  patched in class aOQLCursor
+Hints  patched in class aOQLCursor
+ClassIdRestrictions  patched in class aOQLCursor
+InTransaction  patched in class aOQLCursor
+BatchSize  patched in class aOQLCursor
+myMultiBroker  patched in class aOQLCursor
+aOQLCursor patched !
+.produceDebugInfo  patched in class aXAMLProductionContext
+encoding  patched in class aXAMLProductionContext
+multiLangMode  patched in class aXAMLProductionContext
+xamlKind  patched in class aXAMLProductionContext
+aXAMLProductionContext patched !
+.SubVarAgents  patched in class aVarAgent
+UIAgents  patched in class aVarAgent
+TopVarAgent  patched in class aVarAgent
+HostVarAgent  patched in class aVarAgent
+myVarDesc  patched in class aVarAgent
+myType  patched in class aVarAgent
+myAddress  patched in class aVarAgent
+aVarAgent patched !
+.Cursor  patched in class aTextVarAgent
+aTextVarAgent patched !
+..resourceCategory  patched in class aBoundAttributeConverter
+resourceName  patched in class aBoundAttributeConverter
+targetType  patched in class aBoundAttributeConverter
+uiAgent  patched in class aBoundAttributeConverter
+aBoundAttributeConverter patched !
+........HasNoMore  patched in class aAPSelector
+myArgument  patched in class aAPSelector
+myDesc  patched in class aAPSelector
+ExactResearch  patched in class aAPSelector
+OnlyCurrentVersion  patched in class aAPSelector
+OnlyNotFinalCurrentVersion  patched in class aAPSelector
+AcceptedOnlyDescendantsOfClassDefs  patched in class aAPSelector
+AcceptedClassDefsAndDescendants  patched in class aAPSelector
+aAPSelector patched !
+.........acceptedVerbs  patched in class aWebServiceHttpMethod
+nextMethod  patched in class aWebServiceHttpMethod
+aWebServiceHttpMethod patched !
+.....name  patched in class aDataField
+aDataField patched !
+.adapter  patched in class aDataComputedField
+setter  patched in class aDataComputedField
+getter  patched in class aDataComputedField
+aDataComputedField patched !
+.adapter  patched in class aDataStoredField
+setter  patched in class aDataStoredField
+variable  patched in class aDataStoredField
+offset  patched in class aDataStoredField
+CheckValue patched in class aDataStoredField
+InitFor patched in class aDataStoredField
+aDataStoredField patched !
+..typing  patched in class aTypeAdapter
+aTypeAdapter patched !
+.typing  patched in class aObjectReferenceAdapter
+aObjectReferenceAdapter patched !
+.CanCreateItem  patched in class aListofReftosTypeAdapter
+itemAdapter  patched in class aListofReftosTypeAdapter
+typing  patched in class aListofReftosTypeAdapter
+aListofReftosTypeAdapter patched !
+..typing  patched in class aReftoTypeAdapter
+aReftoTypeAdapter patched !
+..typing  patched in class aCharAdapter
+aCharAdapter patched !
+.typing  patched in class aSubRangeAdapter
+aSubRangeAdapter patched !
+.typing  patched in class aRenamingAdapter
+aRenamingAdapter patched !
+.typing  patched in class aDecimalAdapter
+aDecimalAdapter patched !
+.typing  patched in class aNumAdapter
+aNumAdapter patched !
+.typing  patched in class aPointerAdapter
+aPointerAdapter patched !
+.typing  patched in class aCStringAdapter
+aCStringAdapter patched !
+.typing  patched in class aStringAdapter
+aStringAdapter patched !
+.typing  patched in class aDataValueAdapter
+aDataValueAdapter patched !
+.typing  patched in class aDataArchiveAdapter
+aDataArchiveAdapter patched !
+.typing  patched in class aTextAdapter
+aTextAdapter patched !
+.typing  patched in class aEnumAdapter
+aEnumAdapter patched !
+.displayAsArray  patched in class aSetAdapter
+typing  patched in class aSetAdapter
+aSetAdapter patched !
+.itemSize  patched in class aSequenceAdapter
+itemAdapter  patched in class aSequenceAdapter
+typing  patched in class aSequenceAdapter
+aSequenceAdapter patched !
+.itemSize  patched in class aArrayAdapter
+itemAdapter  patched in class aArrayAdapter
+typing  patched in class aArrayAdapter
+aArrayAdapter patched !
+.itemAdapter  patched in class aListAdapter
+typing  patched in class aListAdapter
+aListAdapter patched !
+.typing  patched in class aRecordAdapter
+aRecordAdapter patched !
+.typing  patched in class aClassAdapter
+aClassAdapter patched !
+.typing  patched in class aBooleanAdapter
+aBooleanAdapter patched !
+.typing  patched in class aIntAdapter
+aIntAdapter patched !
+....Encoding  patched in class aStringDocument
+aStringDocument patched !
+.ExecutionIndex  patched in class aWebInboundRequest
+ExecutionStack  patched in class aWebInboundRequest
+aWebInboundRequest patched !
+..........MultiRole  patched in class aReferenceTypeAnnotation
+aReferenceTypeAnnotation patched !
+.Sorted  patched in class aListofReftosTypeAnnotation
+CanMove  patched in class aListofReftosTypeAnnotation
+aListofReftosTypeAnnotation patched !
+..................definitionsFactory  patched in class aGraphStatefulProtocolContext
+aGraphStatefulProtocolContext patched !
+.currentObject  patched in class aDataSnapshotWriter
+currentField  patched in class aDataSnapshotWriter
+writePtr  patched in class aDataSnapshotWriter
+aDataSnapshotWriter patched !
+.readLimit  patched in class aDataSnapshotReader
+readPtr  patched in class aDataSnapshotReader
+aDataSnapshotReader patched !
+.........Flags  patched in class aIROpNode
+aIROpNode patched !
+.Args  patched in class aIROpIntrinsicWithParms
+aIROpIntrinsicWithParms patched !
+.ThrowWhat  patched in class aIrOpIntrinsicThrow
+aIrOpIntrinsicThrow patched !
+.........isReadln  patched in class aOpReadText
+aOpReadText patched !
+..isWriteln  patched in class aOpWriteText
+aOpWriteText patched !
+.................R  patched in class aIROpBinary
+L  patched in class aIROpBinary
+aIROpBinary patched !
+..........................................NumOfBits  patched in class aIROpSetMul
+aIROpSetMul patched !
+.NumOfBits  patched in class aIROpSetSub
+aIROpSetSub patched !
+.NumOfBits  patched in class aIROpSetAdd
+aIROpSetAdd patched !
+.......................................................................................................................Third  patched in class aIROpTernary
+aIROpTernary patched !
+...theOpNode  patched in class aIROpBasicUnary
+aIROpBasicUnary patched !
+.TempValue  patched in class aIROpIntrinsicWithParm
+aIROpIntrinsicWithParm patched !
+............................IsAscending  patched in class aOQLOpOrderBy
+aOQLOpOrderBy patched !
+.SelectVarRank  patched in class aOQLOpGlobalOrderBy
+aOQLOpGlobalOrderBy patched !
+.MMTypeTempVar  patched in class aIROpTypeOf
+aIROpTypeOf patched !
+.......RecastAsTypeIdOp  patched in class aIROpCast
+aIROpCast patched !
+....NumOfBits  patched in class aOpMakeSet
+aOpMakeSet patched !
+.ModifiersBis  patched in class aOpWriteElement
+Modifiers  patched in class aOpWriteElement
+aOpWriteElement patched !
+......................................................SizeToCopy  patched in class aOpConversion
+aOpConversion patched !
+.NumBitsToConvertTo  patched in class aOpSetToSet
+aOpSetToSet patched !
+......................TempVarOffset  patched in class aOpPushTempVarByAddress
+TempVarSize  patched in class aOpPushTempVarByAddress
+aOpPushTempVarByAddress patched !
+.......ParamSize  patched in class aOpPushByValue
+aOpPushByValue patched !
+....Offset  patched in class aOpPushDerefOffset
+aOpPushDerefOffset patched !
+..RunTimeScen  patched in class aIROpScenarioSelect
+MMDefObject  patched in class aIROpScenarioSelect
+aIROpScenarioSelect patched !
+.theInstance  patched in class aOpCallRetInstance
+aOpCallRetInstance patched !
+...MMDefObject  patched in class aIROpIdentifier
+Id  patched in class aIROpIdentifier
+aIROpIdentifier patched !
+..PhantomsToo  patched in class aOQLOpFromDef
+AcceptDescendants  patched in class aOQLOpFromDef
+AllVersionsOf  patched in class aOQLOpFromDef
+aOQLOpFromDef patched !
+.Conditional  patched in class aOQLOpFromDefRestricted
+OQLActionKind  patched in class aOQLOpFromDefRestricted
+RestrictOp  patched in class aOQLOpFromDefRestricted
+aOQLOpFromDefRestricted patched !
+.ExplicitJoinedToRank  patched in class aOQLOpFromDefWithJoins
+ExplicitJoinKind  patched in class aOQLOpFromDefWithJoins
+ExplicitJoinConditionOp  patched in class aOQLOpFromDefWithJoins
+OuterJoinOnImplicitOps  patched in class aOQLOpFromDefWithJoins
+aOQLOpFromDefWithJoins patched !
+...............UsingCursor  patched in class aOpDBExec
+RTSelector  patched in class aOpDBExec
+aOpDBExec patched !
+.SqlString  patched in class aOpSqlExec
+aOpSqlExec patched !
+..OrderBy  patched in class aOQLOpSelect
+WhereOp  patched in class aOQLOpSelect
+FromList  patched in class aOQLOpSelect
+VarsList  patched in class aOQLOpSelect
+aOQLOpSelect patched !
+..TopOp  patched in class aOQLOpSelectWTop
+aOQLOpSelectWTop patched !
+.GroupBy  patched in class aOQLOpSelectWGroup
+aOQLOpSelectWGroup patched !
+...ReturnValueSize  patched in class aIROpCall
+SizeOfTempVars  patched in class aIROpCall
+Args  patched in class aIROpCall
+Routine  patched in class aIROpCall
+aIROpCall patched !
+.......NumberOfClassLevels  patched in class aIROpInheritedCall
+aIROpInheritedCall patched !
+...Co  patched in class aIROpConstant
+aIROpConstant patched !
+..Co  patched in class aOpIntConstant
+aOpIntConstant patched !
+......Co  patched in class aOpInt8Constant
+aOpInt8Constant patched !
+......NumOfBits  patched in class aIROpSet
+Values  patched in class aIROpSet
+aIROpSet patched !
+..Statements  patched in class aIrBlockOfStatements
+aIrBlockOfStatements patched !
+.FinalizeStatements  patched in class aIrStatementTry
+CatchDefault  patched in class aIrStatementTry
+Catches  patched in class aIrStatementTry
+aIrStatementTry patched !
+.LoopStatements  patched in class aIrStatementLoop
+aIrStatementLoop patched !
+.Domain  patched in class aIrStatementForEach
+Item  patched in class aIrStatementForEach
+Down  patched in class aIrStatementForEach
+aIrStatementForEach patched !
+.Counter  patched in class aIrStatementForEachUsingCounter
+aIrStatementForEachUsingCounter patched !
+..Cond  patched in class aIrStatementWhile
+aIrStatementWhile patched !
+....ForStep  patched in class aIrStatementFor
+Stop  patched in class aIrStatementFor
+Start  patched in class aIrStatementFor
+Index  patched in class aIrStatementFor
+Down  patched in class aIrStatementFor
+aIrStatementFor patched !
+........SynchronizedWhat  patched in class aIrStatementSynchronized
+aIrStatementSynchronized patched !
+.OffsetInFlatBuffer  patched in class aIrStatementLabeledBlock
+theLabel  patched in class aIrStatementLabeledBlock
+aIrStatementLabeledBlock patched !
+.WithOpId  patched in class aIrStatementWith
+aIrStatementWith patched !
+.DeleteOp  patched in class aOQLStDelete
+aOQLStDelete patched !
+.IntoList  patched in class aOQLStFetch
+UsingCursor  patched in class aOQLStFetch
+aOQLStFetch patched !
+..ExecOp  patched in class aSqlExecSt
+aSqlExecSt patched !
+.SelectOp  patched in class aOQLStSelect
+aOQLStSelect patched !
+.theOpParameter  patched in class aStCopyLocalParms
+aStCopyLocalParms patched !
+.Default  patched in class aIrStatementCase
+Choices  patched in class aIrStatementCase
+Value  patched in class aIrStatementCase
+aIrStatementCase patched !
+...Else_Statements  patched in class aIrStatementIf
+ifunc_Statements  patched in class aIrStatementIf
+Cond  patched in class aIrStatementIf
+aIrStatementIf patched !
+..Value  patched in class aIrStatementReturn
+aIrStatementReturn patched !
+......Call  patched in class aIrStatementCall
+aIrStatementCall patched !
+..pComment  patched in class aIrStatementComment
+aIrStatementComment patched !
+....theLabelStatement  patched in class aIrStatementContinueLabeled
+aIrStatementContinueLabeled patched !
+..theLabelStatement  patched in class aIrStatementBreakLabeled
+aIrStatementBreakLabeled patched !
+.R  patched in class aIrStatementAssign
+L  patched in class aIrStatementAssign
+aIrStatementAssign patched !
+..R  patched in class aIrStatementDecByConst
+aIrStatementDecByConst patched !
+..............R  patched in class aIrStatementIncByConst
+aIrStatementIncByConst patched !
+.............................................Statements  patched in class aIROpCatch
+aIROpCatch patched !
+.Max  patched in class aIRChoiceRange
+aIRChoiceRange patched !
+..Statements  patched in class aIRCaseChoice
+aIRCaseChoice patched !
+.MetaInfos  patched in class aIRType
+MMImplemObject  patched in class aIRType
+MMDefObject  patched in class aIRType
+Duplicates  patched in class aIRType
+aIRType patched !
+..Interfaces  patched in class aIRTypObject
+HasFlat  patched in class aIRTypObject
+pFlatExtsBlocks  patched in class aIRTypObject
+pDeclAllocBlocks  patched in class aIRTypObject
+Constraints  patched in class aIRTypObject
+Imports  patched in class aIRTypObject
+Forwards  patched in class aIRTypObject
+Fields  patched in class aIRTypObject
+FieldsHasher  patched in class aIRTypObject
+Parent  patched in class aIRTypObject
+Is_Packed  patched in class aIRTypObject
+aIRTypObject patched !
+.myMMDefLists  patched in class aIRTypRecord
+aIRTypRecord patched !
+..HasSelector  patched in class aIrTypVariantRecord
+Variants  patched in class aIrTypVariantRecord
+aIrTypVariantRecord patched !
+..Base  patched in class aIRTypBased
+aIRTypBased patched !
+.....Inverses  patched in class aIRTypRefto
+Classes  patched in class aIRTypRefto
+IsActive  patched in class aIRTypRefto
+IsIntegral  patched in class aIRTypRefto
+IsCurProject  patched in class aIRTypRefto
+IsOwner  patched in class aIRTypRefto
+InTransaction  patched in class aIRTypRefto
+IsVersioned  patched in class aIRTypRefto
+aIRTypRefto patched !
+.MMMaxConst  patched in class aIRTypSubRange
+MMMinConst  patched in class aIRTypSubRange
+Max  patched in class aIRTypSubRange
+Min  patched in class aIRTypSubRange
+aIRTypSubRange patched !
+.BuildLists  patched in class aIRTypEnum
+Values  patched in class aIRTypEnum
+aIRTypEnum patched !
+.BehaviorIRType  patched in class aIRTypInstanceOf
+ClassToInstantiate  patched in class aIRTypInstanceOf
+aIRTypInstanceOf patched !
+.IndexType  patched in class aIRTypArray
+ElementType  patched in class aIRTypArray
+aIRTypArray patched !
+..Size  patched in class aIRTypSizeable
+aIRTypSizeable patched !
+...Is_C  patched in class aIRTypString
+aIRTypString patched !
+....Signed  patched in class aIRTypInteger
+aIRTypInteger patched !
+.myMMDefLists  patched in class aIRTypRoutine
+RET_TYPE  patched in class aIRTypRoutine
+Params  patched in class aIRTypRoutine
+aIRTypRoutine patched !
+.......Modifiers  patched in class aIRIdentifier
+GenerationRank  patched in class aIRIdentifier
+MMImplemObject  patched in class aIRIdentifier
+MMDefObject  patched in class aIRIdentifier
+Kind  patched in class aIRIdentifier
+Owner  patched in class aIRIdentifier
+Alias  patched in class aIRIdentifier
+aIRIdentifier patched !
+.MetaInfos  patched in class aIRIdTyped
+InLineTypeCount  patched in class aIRIdTyped
+LanguageSpecific  patched in class aIRIdTyped
+Typ  patched in class aIRIdTyped
+aIRIdTyped patched !
+.myMMImplemLists  patched in class aIRIdType
+myMMDefLists  patched in class aIRIdType
+State  patched in class aIRIdType
+aIRIdType patched !
+.HasFlat  patched in class aIRIdScoped
+pFlatExtsBlocks  patched in class aIRIdScoped
+pCodeAllocBlocks  patched in class aIRIdScoped
+pDeclAllocBlocks  patched in class aIRIdScoped
+Statements  patched in class aIRIdScoped
+Forwards  patched in class aIRIdScoped
+Imports  patched in class aIRIdScoped
+Locals  patched in class aIRIdScoped
+LocalsHasher  patched in class aIRIdScoped
+aIRIdScoped patched !
+..ReimplemRoutine  patched in class aIRIdRoutine
+ThrowsClasses  patched in class aIRIdRoutine
+IsClassMethod  patched in class aIRIdRoutine
+IsRemote  patched in class aIRIdRoutine
+IsForwarded  patched in class aIRIdRoutine
+aIRIdRoutine patched !
+.DllRoutineName  patched in class aIRIdExternalRoutine
+DllName  patched in class aIRIdExternalRoutine
+aIRIdExternalRoutine patched !
+.OverriddenRoutine  patched in class aIRIdOverrideRoutine
+aIRIdOverrideRoutine patched !
+...RenamedIRId  patched in class aIRIdRenamingType
+aIRIdRenamingType patched !
+.Value  patched in class aIRIdEnum
+aIRIdEnum patched !
+.IsAVar  patched in class aIRIdParameter
+aIRIdParameter patched !
+.IsClassVar  patched in class aIRIdVariable
+VarKind  patched in class aIRIdVariable
+AbsoluteForVar  patched in class aIRIdVariable
+OverriddenVar  patched in class aIRIdVariable
+Value  patched in class aIRIdVariable
+aIRIdVariable patched !
+...........Value  patched in class aIRIdConstant
+aIRIdConstant patched !
+.Intrinsic  patched in class aIRIdIntrinsic
+aIRIdIntrinsic patched !
+..Value  patched in class aIrConstStructured
+aIrConstStructured patched !
+..Value  patched in class aIrConstPointer
+aIrConstPointer patched !
+.Value  patched in class aIrConstString
+aIrConstString patched !
+.Value  patched in class aIrConstReal
+aIrConstReal patched !
+.Value  patched in class aIrConstBoolean
+aIrConstBoolean patched !
+.Value  patched in class aIrConstEnum
+aIrConstEnum patched !
+.Value  patched in class aIrConstChar
+aIrConstChar patched !
+.Value  patched in class aIrConstInteger
+aIrConstInteger patched !
+..Code  patched in class aSystemException
+aSystemException patched !
+..........MustBeKeptAlive  patched in class aThread
+aThread patched !
+..NoDBConnectionAvailable  patched in class aWedThread
+aWedThread patched !
+..FullObjectNumber  patched in class aWydeWebSession
+MessageBody  patched in class aWydeWebSession
+MessageTitle  patched in class aWydeWebSession
+MessageState  patched in class aWydeWebSession
+ActivityTimeout  patched in class aWydeWebSession
+ConnectionTimeout  patched in class aWydeWebSession
+IsRunning  patched in class aWydeWebSession
+LastUsedField  patched in class aWydeWebSession
+LastExecutedField  patched in class aWydeWebSession
+WorkingWindow  patched in class aWydeWebSession
+UserProcessId  patched in class aWydeWebSession
+UserOS  patched in class aWydeWebSession
+UserLogin  patched in class aWydeWebSession
+UserIPAddress  patched in class aWydeWebSession
+UserComputerName  patched in class aWydeWebSession
+UserName  patched in class aWydeWebSession
+Options  patched in class aWydeWebSession
+CancelReason  patched in class aWydeWebSession
+IsTerminating  patched in class aWydeWebSession
+Canceled  patched in class aWydeWebSession
+theMethodAddr  patched in class aWydeWebSession
+theInstance  patched in class aWydeWebSession
+theMethodName  patched in class aWydeWebSession
+theClassName  patched in class aWydeWebSession
+Version  patched in class aWydeWebSession
+theWydeWebThread  patched in class aWydeWebSession
+LastActivityTime  patched in class aWydeWebSession
+LastConnectedTime  patched in class aWydeWebSession
+aWydeWebSession patched !
+....ImplemBeingParsed  patched in class aParser
+LastTime  patched in class aParser
+ParseTime  patched in class aParser
+LocalScopes  patched in class aParser
+GlobalScopes  patched in class aParser
+ErrorList  patched in class aParser
+aParser patched !
+.TokenStrings  patched in class aVParser
+MaxTokens  patched in class aVParser
+ProductionStrings  patched in class aVParser
+MaxProductions  patched in class aVParser
+VPYaccer  patched in class aVParser
+VPLexer  patched in class aVParser
+VPConsumer  patched in class aVParser
+aVParser patched !
+.OQLImplicitVars  patched in class aGOLDParser
+IsParsingOQLSelect  patched in class aGOLDParser
+aGOLDParser patched !
+.ScopeId  patched in class aScope
+Identifiers  patched in class aScope
+Hasher  patched in class aScope
+aScope patched !
+.AcceptedOnlyDescendantsOfClassDefs  patched in class aAPIterator
+AcceptedClassDefsAndDescendants  patched in class aAPIterator
+AcceptedClassDefs  patched in class aAPIterator
+onlyNotFinalVersions  patched in class aAPIterator
+onlyCurrentVersions  patched in class aAPIterator
+aAPIterator patched !
+.curIndexBuffer  patched in class aODBCAPIterator
+curIdAsString  patched in class aODBCAPIterator
+hStmt  patched in class aODBCAPIterator
+myDBMgr  patched in class aODBCAPIterator
+aODBCAPIterator patched !
+...IsKilledFlag  patched in class aODBCVarDependentOneTableAPIterator
+CurrentVersionFlag  patched in class aODBCVarDependentOneTableAPIterator
+WhereConversionBuffer  patched in class aODBCVarDependentOneTableAPIterator
+FetchIntoConversionBuffer  patched in class aODBCVarDependentOneTableAPIterator
+LegacyTableAP  patched in class aODBCVarDependentOneTableAPIterator
+curPrimaryKeyBufferSize  patched in class aODBCVarDependentOneTableAPIterator
+curPrimaryKeyBuffer  patched in class aODBCVarDependentOneTableAPIterator
+theSqlAPDesc  patched in class aODBCVarDependentOneTableAPIterator
+aODBCVarDependentOneTableAPIterator patched !
+....MustNotLoadObject  patched in class aSelectorIterator_DEPRECATED
+BindAddresses  patched in class aSelectorIterator_DEPRECATED
+BindTypes  patched in class aSelectorIterator_DEPRECATED
+curRank  patched in class aSelectorIterator_DEPRECATED
+forSelector  patched in class aSelectorIterator_DEPRECATED
+aSelectorIterator_DEPRECATED patched !
+.SingleTableIterator  patched in class aODBCMultiTableSelectorIterator_DEPRECATED
+SelectorIterator  patched in class aODBCMultiTableSelectorIterator_DEPRECATED
+aODBCMultiTableSelectorIterator_DEPRECATED patched !
+.CurPosInBuf  patched in class aSqlSelectorIterator_DEPRECATED
+Buffer  patched in class aSqlSelectorIterator_DEPRECATED
+IsDeclared  patched in class aSqlSelectorIterator_DEPRECATED
+CursorName  patched in class aSqlSelectorIterator_DEPRECATED
+hStmt  patched in class aSqlSelectorIterator_DEPRECATED
+aSqlSelectorIterator_DEPRECATED patched !
+.FetchColumnIterator  patched in class aODBCSelectorIterator_DEPRECATED
+aODBCSelectorIterator_DEPRECATED patched !
+.HasFetchedIntrinsic  patched in class aTGVSelectorIterator_DEPRECATED
+forColumn  patched in class aTGVSelectorIterator_DEPRECATED
+MeetsCriterionIt  patched in class aTGVSelectorIterator_DEPRECATED
+aTGVSelectorIterator_DEPRECATED patched !
+..QuitStatus  patched in class aDlgWindow
+Handle  patched in class aDlgWindow
+aDlgWindow patched !
+..SelectSmallerFrame  patched in class aDesignWindow
+TreeFrameMode  patched in class aDesignWindow
+ForceSlowMove  patched in class aDesignWindow
+ManageZOrder  patched in class aDesignWindow
+PrinterPS  patched in class aDesignWindow
+HeightPage  patched in class aDesignWindow
+WidthPage  patched in class aDesignWindow
+YPage  patched in class aDesignWindow
+XPage  patched in class aDesignWindow
+IsPrinting  patched in class aDesignWindow
+UnityHeight  patched in class aDesignWindow
+UnityWidth  patched in class aDesignWindow
+DefaultFontName  patched in class aDesignWindow
+TimerForSlowMoveCount  patched in class aDesignWindow
+FastMoveMode  patched in class aDesignWindow
+Tracking  patched in class aDesignWindow
+MovingKind  patched in class aDesignWindow
+BackColor  patched in class aDesignWindow
+ZoomFactor  patched in class aDesignWindow
+RulerHeight  patched in class aDesignWindow
+RulerWidth  patched in class aDesignWindow
+CharHeight  patched in class aDesignWindow
+CharWidth  patched in class aDesignWindow
+TopY  patched in class aDesignWindow
+TopX  patched in class aDesignWindow
+TrackY  patched in class aDesignWindow
+TrackX  patched in class aDesignWindow
+StartY  patched in class aDesignWindow
+StartX  patched in class aDesignWindow
+MemPS  patched in class aDesignWindow
+HasFocus  patched in class aDesignWindow
+Locked  patched in class aDesignWindow
+IsAlt  patched in class aDesignWindow
+IsCtrl  patched in class aDesignWindow
+IsDelete  patched in class aDesignWindow
+IsShift  patched in class aDesignWindow
+myMenu  patched in class aDesignWindow
+myFrames  patched in class aDesignWindow
+aDesignWindow patched !
+.....theCurrentRank  patched in class aFolderWindow
+theFolderList  patched in class aFolderWindow
+aFolderWindow patched !
+...........ExpectedHeight  patched in class aFrame
+ExpectedWidth  patched in class aFrame
+ExpectedY  patched in class aFrame
+ExpectedX  patched in class aFrame
+mDy  patched in class aFrame
+mDx  patched in class aFrame
+FramesLinkedToMe  patched in class aFrame
+FramesLinkedFromMe  patched in class aFrame
+myMaster  patched in class aFrame
+myAttachedFrames  patched in class aFrame
+myOwner  patched in class aFrame
+myBelongings  patched in class aFrame
+myGroup  patched in class aFrame
+myWindow  patched in class aFrame
+IMustBeDeleted  patched in class aFrame
+Locked  patched in class aFrame
+IAmSelected  patched in class aFrame
+Height  patched in class aFrame
+Width  patched in class aFrame
+Y  patched in class aFrame
+X  patched in class aFrame
+aFrame patched !
+.myFrames  patched in class aGroupOfFrames
+aGroupOfFrames patched !
+.myPoints  patched in class aLine
+aLine patched !
+.ForeLink  patched in class aPoint
+NextPoint  patched in class aPoint
+PrevPoint  patched in class aPoint
+aPoint patched !
+............................Found  patched in class aTextSearcher
+BatchMode  patched in class aTextSearcher
+theApplication  patched in class aTextSearcher
+DisplayGauge  patched in class aTextSearcher
+ChangesNumber  patched in class aTextSearcher
+TextHasChanged  patched in class aTextSearcher
+curPos  patched in class aTextSearcher
+column  patched in class aTextSearcher
+line  patched in class aTextSearcher
+theTextType  patched in class aTextSearcher
+ptheTextVar  patched in class aTextSearcher
+aTextSearcher patched !
+....Versions  patched in class aHistorian
+aHistorian patched !
+.theClassVersion  patched in class aClassInfo
+theClassId  patched in class aClassInfo
+theClassName  patched in class aClassInfo
+isCurrent  patched in class aClassInfo
+otherVersions  patched in class aClassInfo
+theCurrentClassInfo  patched in class aClassInfo
+aClassInfo patched !
+.NumberFOFound  patched in class aSystemInfo
+SearchedClassName  patched in class aSystemInfo
+nbreFullClasses  patched in class aSystemInfo
+nbreLightClasses  patched in class aSystemInfo
+ApplicativeCompiledClasses  patched in class aSystemInfo
+ApplicativeInterpretedClasses  patched in class aSystemInfo
+systemCompiledClasses  patched in class aSystemInfo
+aSystemInfo patched !
+.CurrentModuleClasses  patched in class aClassDispatcher
+currentModule  patched in class aClassDispatcher
+allClasses  patched in class aClassDispatcher
+aClassDispatcher patched !
+.mustCheckExistanceOfFile  patched in class aFilePicker
+theDisksList  patched in class aFilePicker
+theDirectoriesList  patched in class aFilePicker
+aFilePicker patched !
+..ExtendedCmdLine  patched in class aConsoleLauncher
+NbrLineMax  patched in class aConsoleLauncher
+NbrLine  patched in class aConsoleLauncher
+Aborted  patched in class aConsoleLauncher
+AbortMsg  patched in class aConsoleLauncher
+MustWait  patched in class aConsoleLauncher
+CmdLine  patched in class aConsoleLauncher
+OutText  patched in class aConsoleLauncher
+aConsoleLauncher patched !
+...MemoryObject  patched in class aPickableCandidate
+theClassId  patched in class aPickableCandidate
+aPickableCandidate patched !
+.Title  patched in class aInListPicker
+SelectedObject  patched in class aInListPicker
+SelectedRank  patched in class aInListPicker
+aInListPicker patched !
+.ToBeRemovedxxxxxxxxxxxxxxxxxxxxxxAcceptedClass  patched in class aPicker
+ToBeRemovedxxxxxxxxxxxxxxxxxxxxxxpFromThisVar  patched in class aPicker
+ToBeRemovedxxxxxxxxxxxxxxxxxxxxxxFromThisObject  patched in class aPicker
+ToBeRemovedxxxxxxxxxxxxxxxxxxxxxxforThisRole  patched in class aPicker
+FromThisObject  patched in class aPicker
+mySelector  patched in class aPicker
+noMore  patched in class aPicker
+myList  patched in class aPicker
+PickerWithoutArgument  patched in class aPicker
+ConsultScenario  patched in class aPicker
+SelectionArgument  patched in class aPicker
+mustCheckInMem  patched in class aPicker
+onlyLoadedCandidates  patched in class aPicker
+LoadedCandidates  patched in class aPicker
+OnlyNotFinalCurrentVersion  patched in class aPicker
+OnlyCurrentVersion  patched in class aPicker
+OnlyDescendantsAccepted  patched in class aPicker
+DescendantsAccepted  patched in class aPicker
+theAPDesc  patched in class aPicker
+AcceptedOnlyDescendantsOfClassDefs  patched in class aPicker
+AcceptedClassDefsAndDescendants  patched in class aPicker
+AcceptedClassDefs  patched in class aPicker
+aPicker patched !
+.............vbForAttributes  patched in class aXTVBLister
+aXTVBLister patched !
+...Gamma  patched in class aAproposPainter
+Beta  patched in class aAproposPainter
+Alpha  patched in class aAproposPainter
+Faces  patched in class aAproposPainter
+aAproposPainter patched !
+.numCharIndent  patched in class aProduced
+FileName  patched in class aProduced
+pListOfEntities  patched in class aProduced
+ppText  patched in class aProduced
+curMethodDesc  patched in class aProduced
+aProduced patched !
+.CurAcceptDescendantSelectAllRank  patched in class aProducedSQL
+theAcceptDescendantsOriginalClassDefList  patched in class aProducedSQL
+ProducingDeleteFor  patched in class aProducedSQL
+ProducingDeleteForAlias  patched in class aProducedSQL
+ProducingForDelete  patched in class aProducedSQL
+OnlyPKWhenSelectStar  patched in class aProducedSQL
+DontProduceSQLString  patched in class aProducedSQL
+ProduceCPP  patched in class aProducedSQL
+FromClass  patched in class aProducedSQL
+WhereBindBuffer  patched in class aProducedSQL
+WhereBindInfos  patched in class aProducedSQL
+theSQLTableList  patched in class aProducedSQL
+SelectedColInfos  patched in class aProducedSQL
+SelectedCols  patched in class aProducedSQL
+aProducedSQL patched !
+.HideModifiers  patched in class aProducedGold
+WrapAtAndOr  patched in class aProducedGold
+WithAnnotationInfo  patched in class aProducedGold
+WithDebugInfo  patched in class aProducedGold
+WithIds  patched in class aProducedGold
+NumWrappedLines  patched in class aProducedGold
+theIdentifiersOrigin  patched in class aProducedGold
+theLines  patched in class aProducedGold
+aProducedGold patched !
+.WhereBindInfos  patched in class aProdCPP
+aProdCPP patched !
+.flusherHandle  patched in class aKruncher
+fillerHandle  patched in class aKruncher
+isInError  patched in class aKruncher
+outTotalLen  patched in class aKruncher
+outBuffer  patched in class aKruncher
+inBuffer  patched in class aKruncher
+aKruncher patched !
+......isDirect  patched in class aMethodInvocation
+ParametersFrame  patched in class aMethodInvocation
+OldTOS  patched in class aMethodInvocation
+ImplicitOQLCursor  patched in class aMethodInvocation
+ElapsedTime  patched in class aMethodInvocation
+MustStep  patched in class aMethodInvocation
+WantsStepping  patched in class aMethodInvocation
+hasBeenPreparedForPresentation  patched in class aMethodInvocation
+ExitLoopCount  patched in class aMethodInvocation
+NestedLoopCount  patched in class aMethodInvocation
+myText  patched in class aMethodInvocation
+pReturnValue  patched in class aMethodInvocation
+mySelftoInterp  patched in class aMethodInvocation
+myUIAgent  patched in class aMethodInvocation
+SizeOfParameters  patched in class aMethodInvocation
+SizeOfLocals  patched in class aMethodInvocation
+LocalsFrame  patched in class aMethodInvocation
+CurStatement  patched in class aMethodInvocation
+myExecutionContext  patched in class aMethodInvocation
+myCaller  patched in class aMethodInvocation
+myMethodImplem  patched in class aMethodInvocation
+myLocalUIAgentsUnderWatch  patched in class aMethodInvocation
+aMethodInvocation patched !
+....AutoResizable  patched in class aHashTable
+Count  patched in class aHashTable
+ArraySize  patched in class aHashTable
+aHashTable patched !
+.HashRecordSize  patched in class aRecordHashTable
+DataRecordSize  patched in class aRecordHashTable
+aRecordHashTable patched !
+..CaseDependant  patched in class aDataByStringHashTable
+aDataByStringHashTable patched !
+..CaseDependant  patched in class aStringHashTable
+aStringHashTable patched !
+...allPBs  patched in class aTransaction
+LastDBErrMsg  patched in class aTransaction
+LastDBErrNum  patched in class aTransaction
+AllThingsToKill  patched in class aTransaction
+AllThingsToDelete  patched in class aTransaction
+Gauge  patched in class aTransaction
+WellAccepted  patched in class aTransaction
+Accepted  patched in class aTransaction
+aTransaction patched !
+
+Your system base D:\DevEnvironments\Wynsure7\TGV\W003001.TGV has been patched:
+ Old System Version:7.0.11
+ New System Version:7.0.11
+
+Your system base D:\DevEnvironments\Wynsure7\TGV\W001001.TGV has been patched:
+ Old System Version:7.0.11
+ New System Version:7.0.11

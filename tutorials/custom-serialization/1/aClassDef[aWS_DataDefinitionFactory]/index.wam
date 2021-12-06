@@ -1,0 +1,149 @@
+; aWS_DataDefinitionFactory (aDataDefinitionFactory) (Def Version:13) (Implem Version:21)
+
+class aWS_DataDefinitionFactory (aDataDefinitionFactory)
+
+uses aVarDesc, aDataAdapter, aFullObject, aRecordDesc, aRecordAdapter, aPointerType, 
+   aReferenceType, aReftoTypeAdapter, aListofReftosTypeAdapter, aModuleDef, aDataDefinition, 
+   aWS_DataAdapterContext
+
+
+function ShouldDisplayVar(model : aVarDesc) return Boolean
+   uses aInstanceVarDesc, SerializationAnnotation, aClassDef
+   
+   var NSID : aVarDesc
+   var id : aVarDesc
+   var version : aVarDesc
+   var annotation : SerializationAnnotation
+   
+   NSID = MetaModelEntity(aFullObject.NSId)
+   id = MetaModelEntity(aFullObject.Id)
+   version = MetaModelEntity(aFullObject.Version)
+   if (model = NSID) or (model = id) or (model = version)
+      return False
+   endIf
+   annotation = model.getAnnotation(MetaModelEntity(SerializationAnnotation))
+   if annotation <> Nil
+      return not annotation.ignore
+   endIf
+   if member(model, aInstanceVarDesc) and aInstanceVarDesc(model).IsTransient
+      ;memory variable are skipped by default
+      return False
+   endIf
+   return True
+endFunc 
+
+function GetAdapterFor(model : aFullObject) return aDataAdapter override
+   uses aRenamingType
+   
+   if member(model, aRenamingType)
+      _Result = self.GetAdapterFor(aRenamingType(model).GoodOne)
+   else
+      _Result = inherited self.GetAdapterFor(model)
+   endIf
+endFunc 
+
+procedure SpreadRefTo(vardesc : aVarDesc)
+   uses aReftoInlineTypeAdapter, aDataStoredField
+   
+   var result : aDataAdapter
+   var adapter : aReftoInlineTypeAdapter
+   var field : aDataStoredField
+   
+   new(field)
+   field.InitFor(vardesc)
+   new(adapter)
+   adapter.factory = self
+   adapter.InitFor(vardesc.myType)
+   field.adapter = adapter
+   result = self.RegisterAdapterFor(vardesc, field)
+endProc 
+
+procedure Init protected override
+   inherited self.Init
+   ;self.SpreadRefTo(MetaModelEntity(aWLIMemberContract.SubscriberAsMember))
+   ;self.SpreadRefTo(MetaModelEntity(aWFContract.Subscriber))
+   ; self.SpreadRefTo(MetaModelEntity(aWLIContract.Subscriber))
+   ; self.SpreadRefTo(MetaModelEntity(aWLIPersonContractRoot.Subscriber))
+endProc 
+
+function NewAdapterFor(model : aFullObject) return aDataAdapter override
+   uses aCStringType, aClassDef, aCStringAdapter, aIntType, aIntAdapter, aRoleType, 
+      aSubRangeType, aBooleanType, aBooleanAdapter, aNumType, aNumAdapter, aDecimalType, 
+      aDecimalAdapter, aSequenceType, aSequenceAdapter, aReftoType, aSingleRoleType, 
+      aReftoInlineTypeAdapter, aListofReftosInlineTypeAdapter, aDataStoredField, 
+      aTextType, aTextAdapter, aPointerAdapter, aSetType, aSetAdapter, aDataValue, 
+      aDataValueAdapter, aWS_RestResourceDefinition
+   
+   var roleType : aRoleType
+   
+   if member(model, aVarDesc)
+      if self.ShouldDisplayVar(aVarDesc(model))
+         new(aDataStoredField(_Result))
+      endIf
+   elseif member(model, aClassDef)
+      if aClassDef(model).IsADescendantOf(MetaModelEntity(aDataValue))
+         new(aDataValueAdapter(_Result))
+      else
+         new(aWS_RestResourceDefinition(_Result))
+      endIf
+   elseif member(model, aRecordDesc)
+      new(aRecordAdapter(_Result))
+   elseif member(model, aCStringType)
+      new(aCStringAdapter(_Result))
+   elseif member(model, aIntType)
+      new(aIntAdapter(_Result))
+   elseif member(model, aSubRangeType)
+      new(aIntAdapter(_Result))
+   elseif member(model, aBooleanType)
+      new(aBooleanAdapter(_Result))
+   elseif member(model, aNumType)
+      new(aNumAdapter(_Result))
+   elseif member(model, aDecimalType)
+      new(aDecimalAdapter(_Result))
+   elseif member(model, aTextType)
+      new(aTextAdapter(_Result))
+   elseif member(model, aPointerType)
+      new(aPointerAdapter(_Result))
+   elseif member(model, aSetType)
+      new(aSetAdapter(_Result))
+   elseif member(model, aSequenceType)
+      new(aSequenceAdapter(_Result))
+   elseif member(model, aReferenceType)
+      roleType = aReferenceType(model).GetRunTimeRole
+      if member(roleType, aSingleRoleType)
+         if aReferenceType(model).isOwner
+            if member(model, aReftoType)
+               new(aReftoInlineTypeAdapter(_Result))
+            else
+               new(aListofReftosInlineTypeAdapter(_Result))
+            endIf
+         else
+            if member(model, aReftoType)
+               new(aReftoTypeAdapter(_Result))
+            else
+               new(aListofReftosTypeAdapter(_Result))
+            endIf
+         endIf
+      else
+         _Result = inherited self.NewAdapterFor(model)
+      endIf
+   endIf
+endFunc 
+
+function GetDefautObjDefinitionClassId return Int8 protected
+   uses aClassDef, aWS_RestResourceDefinition
+   
+   return MetaModelEntity(aWS_RestResourceDefinition).Id
+endFunc 
+
+function NewDefinitionFor(forModule : aModuleDef) return aDataDefinition override
+   uses Motor
+   
+   _Result = Motor.NewInst(self.GetDefautObjDefinitionClassId)
+endFunc 
+
+function GetNewAdapterContext return aWS_DataAdapterContext override
+   new(_Result)
+   _Result.factory = self
+endFunc 
+

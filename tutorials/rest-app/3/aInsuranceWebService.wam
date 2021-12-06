@@ -1,0 +1,77 @@
+; aInsuranceWebService (aWebService) (Def Version:2) (Implem Version:2)
+
+[ServiceDescriptor(path: '/api')]
+class aInsuranceWebService (aWebService)
+
+uses ServiceDescriptorAnnotation
+
+type tNamedObjects : sequence of aNamedObject
+
+function CreateClient(Name : CString) return aNamedObject
+   new(_Result)
+   _Result.Name = Name
+   _Result.Accept
+endFunc 
+
+function Clients return tNamedObjects
+   var client : aNamedObject
+   
+   forEach client in OQL Select top 10 * from x in aNamedObject++
+      _Result[-1] = client
+   endFor
+endFunc 
+
+function GetClient(name : CString) return aNamedObject
+   var client : aNamedObject
+   
+   forEach client in OQL Select top 10 * from x in aNamedObject++ where x.Name = 
+      name
+      _Result = client
+   endFor
+endFunc
+
+function Version return CString
+   return '1.0.0'
+endFunc 
+
+function Login(req : aWebInboundRequest) return aDataElement
+   uses Doc, Net
+   
+   var headers : aDataValue
+   var authorizationHeader : aDataValue
+   var error : aDataValue
+   var result: aDataDocument
+   
+   headers = req.GetAttribut(Doc.Headers)
+   authorizationHeader = headers.Find('Authorization')
+   if authorizationHeader.IsDefined and (authorizationHeader.ToCString = wUtil.ExpandEnvVars('(API_KEY)') )
+      _Result = req.ExecuteNext
+   else
+      new(result)
+      Net.SetHTTPStatus(result, 401)
+      error = result.GetError
+      error.Map('error').Map('code').SetCString('UnAuthorized')
+      error.Map('error').Map('message').SetCString('Please submit a valid API Key')
+      return result
+   endIf
+endFunc
+
+function InitService return Boolean
+   uses aMethodDesc
+   
+   ;All routes will be protected
+   Net.MapMiddleware('/', Net.CreateMiddleware(self, MetaModelEntity(self.Login)))
+   ;
+   Net.MapMethod('/version', Net.CreateHttpMethod('[GET]', self, MetaModelEntity(self.Version)))
+   Net.MapMethod('/clients', Net.CreateHttpMethod('[POST]', self, MetaModelEntity(self.CreateClient)))
+   Net.MapMethod('/clients/{name}', Net.CreateHttpMethod('[GET]', self, MetaModelEntity(self.GetClient)))
+   Net.MapMethod('/clients', Net.CreateHttpMethod('[GET]', self, MetaModelEntity(self.Clients)))
+   return true
+endFunc 
+
+function GetServiceAdapterFactory return aDataAdapterFactory override
+   uses Doc
+   
+   return Doc.wGetSystemAdapterFactory
+endFunc 
+

@@ -1,0 +1,79 @@
+; aWS_RestResourceDefinition (aDataDefinition) (Def Version:4) (Implem Version:12)
+
+class aWS_RestResourceDefinition (aDataDefinition)
+
+uses aModuleDef, aClassDef, aWS_DataDefinitionFactory
+
+typing : aModuleDef
+factory : aWS_DataDefinitionFactory override 
+
+
+procedure AddClassNameAndStringExtract protected
+   uses aDataComputedField, aMethodDesc
+   
+   var field : aDataComputedField
+   
+   if self.typing <> Nil
+      new(field)
+      field.factory = self.factory
+      field.name = 'className'
+      field.SetGetterMethod(MetaModelEntity(aLightObject.ClassName))
+      self.AddField(field)
+      new(field)
+      field.factory = self.factory
+      field.name = '$ref'
+      field.SetGetterMethod(MetaModelEntity(WS_Delegates.GetRefForObject))
+      self.AddField(field)
+   endIf
+endProc 
+
+procedure GetAllVars protected
+   uses aInstanceVarDesc, aDataStoredField
+   
+   var CurVar : aInstanceVarDesc
+   var CurClass : aClassDef
+   var cancestor : aDataDefinition
+   var CurField : aDataStoredField
+   
+   if member(self.typing, aClassDef)
+      CurClass = aClassDef(self.typing)
+      while CurClass <> Nil
+         forEach CurVar in CurClass.myVars
+            if self.factory.ShouldDisplayVar(CurVar)
+               new(CurField)
+               CurField.factory = self.factory
+               CurField.InitFor(CurVar)
+               CurField.SetVariable(CurVar)
+               self.AddField(CurField)
+            endIf
+         endFor
+         CurClass = CurClass.DerivesFrom
+      endWhile
+   endIf
+endProc 
+
+procedure InitFor(model : aClassDef) override
+   self.typing = model
+   self.GetAllVars
+   self.AddClassNameAndStringExtract
+endProc 
+
+procedure SerializeValue(varPtr : tpLightObject, value : aDataValue, context : aDataAdapterContext) override
+   var objClassdef : aClassDef
+   var adapter : aDataAdapter
+   
+   objClassdef = varPtr.ClassDef
+   ; Delegate adaptation to the best fitted adapter, only if it's not the current one
+   if (self.typing <> Nil) and (objClassdef <> self.typing)
+      adapter = self.factory.GetAdapterFor(objClassdef)
+      if (adapter <> Nil) and (adapter <> self)
+         adapter.SerializeValue(varPtr, value, context)
+      else
+         inherited self.SerializeValue(varPtr, value, context)
+      endIf
+   else
+      inherited self.SerializeValue(varPtr, value, context)
+   endIf
+endProc 
+
+

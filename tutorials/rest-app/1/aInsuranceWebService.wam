@@ -1,0 +1,24 @@
+; aInsuranceWebService (aWebService) (Def Version:2) (Implem Version:2)
+
+[ServiceDescriptor(path: '/api')]
+class aInsuranceWebService (aWebService)
+
+uses ServiceDescriptorAnnotation
+
+function Version return CString
+   return '1.0.0'
+endFunc 
+
+function InitService(message : CString) return Boolean
+   uses Net, aMethodDesc
+   
+   Net.MapMethod('/version', Net.CreateHttpMethod('[GET]', self, MetaModelEntity(self.Version)))
+endFunc 
+
+; This let you customize how parameter and response are being de/serialized
+function GetServiceAdapterFactory return aDataAdapterFactory override
+   uses Doc
+   
+   return Doc.wGetSystemAdapterFactory
+endFunc 
+

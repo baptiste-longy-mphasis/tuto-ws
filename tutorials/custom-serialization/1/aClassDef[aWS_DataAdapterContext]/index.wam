@@ -1,0 +1,47 @@
+; aWS_DataAdapterContext (aDataAdapterContext) (Def Version:4) (Implem Version:5)
+
+class aWS_DataAdapterContext (aDataAdapterContext)
+
+uses aDataValue, aFullObject
+
+
+procedure AddKeyRef(value : aDataValue, TheKey : CString, obj : aFullObject) private
+   value.Map('$ref').SetCString(TheKey)
+   value.Map('Name').SetCString(obj.StringExtract(NameExtract, 0, 255))
+endProc 
+
+procedure SerializeCanonicalReference(NsId : Int4, Id : Int8, Version : Int4, value : aDataValue) override
+   uses Motor
+   
+   var TheKey : CString
+   var obj : aFullObject
+   
+   if NsId = 0
+      if Id = 0
+         value.SetNull
+      else
+         TheKey = '0x' + IaS(Id)
+         self.AddKeyRef(value, TheKey, Nil)
+      endIf
+   else
+      TheKey = IaS(NsId) + '_' + IaS(Id)
+      obj = Motor.ThingFromId(NsId, Id, Version)
+      self.AddKeyRef(value, TheKey, obj)
+   endIf
+endProc 
+
+procedure SerializeObjectReference(object : aLightObject, value : aDataValue) override
+   var TheKey : CString
+   
+   if object = Nil
+      value.SetNull
+   elseif self.factory <> Nil
+      if member(object, aFullObject)
+         ; self.SerializeCanonicalReference(aFullObject(object).NSId, aFullObject(object).Id, 
+         ;    aFullObject(object).Version, value)
+         TheKey = IaS(aFullObject(object).NSId) + '_' + IaS(aFullObject(object).Id)
+         self.AddKeyRef(value, TheKey, aFullObject(object))
+      endIf
+   endIf
+endProc 
+

@@ -1,0 +1,29 @@
+{
+  "runtimeMode": "IDE",
+  "minThreadsCount": 1,
+  "maxThreadsCount": 1, // should be twice the nb of cpus
+  "options": {
+    "show-model-annotation": true,
+    "minimize-model-annotation": true,
+    "use-X-Wyde-Profiling": true,
+    "enableInteract": true,
+    "dontCatchException" : false
+  },
+  "administrator": {
+    "services": [
+      {
+        "className": "aSystemIDEService"
+      },
+      {
+        "className": "aDocumentationService"
+      },
+      {
+        "className": "aSystemFSService"
+      },
+      {
+        "className": "aSystemInspectorService",
+        "showDebugWindow": true
+      }
+    ]
+  }
+}

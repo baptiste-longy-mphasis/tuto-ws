@@ -1,0 +1,44 @@
+; aWS_ClassAdapter (aClassAdapter) (Def Version:6) (Implem Version:11)
+
+class aWS_ClassAdapter (aClassAdapter)
+
+uses aDataComputedField, aDataValue, aDataAdapterContext, aFullObject
+
+field : aDataComputedField
+
+
+procedure SerializeValue(varPtr : tpLightObject, value : aDataValue, context : aDataAdapterContext) override
+   inherited self.SerializeValue(varPtr, value, context)
+   if self.field <> Nil
+      self.field.SerializeValue(varPtr., value.Map(self.field.name), context)
+   endIf
+endProc 
+
+procedure InitFor(model : aFullObject) override
+   uses aMethodDesc, aClassDef, WS_Delegates, aNamedObject
+   
+   inherited self.InitFor(model)
+   ;
+   if model = MetaModelEntity(aNamedObject)
+      new(self.field)
+      self.field.factory = self.factory
+      self.field.name = 'myClassName'
+      self.field.SetGetterMethod(MetaModelEntity(WS_Delegates.GetNameForNamedObject))
+      self.field.SetSetterMethod(MetaModelEntity(WS_Delegates.SetNameForNamedObject))
+   endIf
+endProc 
+
+procedure DeserializeValue(varPtr : tpLightObject, value : aDataValue, context : aDataAdapterContext) override
+   inherited self.DeserializeValue(varPtr, value, context)
+   if self.field <> Nil
+      self.field.DeserializeValue(varPtr., value.Map(self.field.name), context)
+   endIf
+endProc 
+
+procedure GenerateSchema(schema : aDataValue, context : aDataAdapterContext) override
+   inherited self.GenerateSchema(schema, context)
+   if self.field <> Nil
+      self.field.GenerateSchema(schema.Map(self.field.name), context)
+   endIf
+endProc 
+

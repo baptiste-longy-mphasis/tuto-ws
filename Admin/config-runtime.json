@@ -1,0 +1,60 @@
+{
+  "runtimeMode": "Application",
+  "minThreadsCount": 1,
+  "maxThreadsCount": 1,
+  "options": {
+    "show-model-annotation": true,
+    "minimize-model-annotation": true,
+    "use-X-Wyde-Profiling": false,
+    "enableInteract": true,
+    "dontCatchException": false
+  },
+  "administrator": {
+    "services": [
+      {
+        "className": "aSystemIDEService"
+      },
+      {
+        "className": "aSystemInspectorService",
+        "showDebugWindow": true
+      },
+      {
+        "className": "aDocumentationService"
+      }
+    ]
+  },
+  "applications": {
+    "stateless": {
+      "type": "stateless",
+      "services": [
+        {
+          "className": "aDocumentationService"
+        }
+      ]
+    },
+    "stateful": {
+      "type": "stateful",
+      "services": [
+        {
+          "className": "aDocumentationService"
+        }
+      ]
+    },
+    "sampleAppli": {
+      "type": "wydeweb",
+      "wNetConf": {
+        "Name": "sampleAppli",
+        "Command": "/run:aSampleAppli.Run",
+        "NbMaxConcurrentRequests": 100,
+        "TimeBeforePolling": 50,
+        "ConnectTimeout": 60000,
+        "Emergency": false,
+        "Compression": false,
+        "Authenticate": false,
+        "UserName": "",
+        "UserPassword": "",
+        "UserDomain": ""
+      }
+    }
+  }
+}

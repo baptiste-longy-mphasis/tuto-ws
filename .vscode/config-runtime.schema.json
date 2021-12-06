@@ -1,0 +1,80 @@
+{
+  "type": "object",
+  "properties": {
+    "runtimeMode": {
+      "type": "string",
+      "anyOf": [
+        {
+          "const": "Application",
+          "title": "Application: TGV 1&3 are readonly"
+        },
+        {
+          "const": "IDE",
+          "title": "IDE: TGV 1&3 are writable - you can modify code"
+        }
+      ],
+      "description": "Runtime mode"
+    },
+    "administrator": {
+      "type": "object",
+      "description": "Administrator service",
+      "properties": {
+        "services": {
+          "$ref": "#/definitions/services"
+        }
+      }
+    },
+    "applications": {
+      "type": "object",
+      "description": "Exposed applications",
+      "patternProperties": {
+        "$": {
+          "$ref": "#/definitions/application"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "services": {
+      "type": "array",
+      "description": "List of ewam services",
+      "items": {
+        "type": "object",
+        "properties": {
+          "className": {
+            "type": "string",
+            "description": "The service classname"
+          }
+        }
+      }
+    },
+    "application": {
+      "type": "object",
+      "description": "eWam application",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "The application type",
+          "enum": [
+            "stateless",
+            "stateful",
+            "wydeweb"
+          ]
+        },
+        "services": {
+          "$ref": "#/definitions/services"
+        }
+      }
+    },
+    "service": {
+      "type": "object",
+      "description": "eWam service",
+      "properties": {
+        "className": {
+          "type": "string",
+          "description": "The service classname"
+        }
+      }
+    }
+  }
+}
